@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 4em 0 2em 0;
+	}
+
+	.wrapper.style1{
+		padding: 0;
+	}
+
+/* Header */
+
+	#skel-layers-wrapper {
+		padding-top: 0;
+	}
+
+	/*#brand{
+		width: 125px;
+		height: 55px;
+		overflow: hidden;
+		position: absolute;
+		left: 0px;
+		background-color: red;
+	}*/
+
+/* Banner */
+
+	ul.actions{
+		margin-top: 1.5em;
+	}
+
+	section, article {
+		margin-bottom: 1em;
+	}
+
+	#banner .inner h2{
+		font-size: 2.5em;
+	}
+		
+		.wrapper.style1 img{
+			 width: 100%;
+			 height: auto!important;
+		}
+
+		 #sponsorsLogo{
+		 	width: 50%;
+		 	margin-bottom: 1em;
+		 	text-align: center;
+		 }
+
+/*Titel Abschlussarbeiten braucht Abstand*/
+	.\37 u h2{
+		padding-top: 0.8em;
+	}
+
+	.wrapper.style1.index {
+		 padding-top: 2em; 
+		 padding-bottom: 1em;
+	}
+
+	#bannerBottomTitle {
+		margin-top:0em;
+	}
+
+	#bannerBottomTitle h2{
+		margin-bottom: 0.5em
+	}
+
+	.wrapper.style1.jobs h2{
+		margin-top: 0.8em;
+	}
+
+	.wrapper.style1.contact {
+		margin-top: 2em;
+	}
+
+	#baswordID {
+		margin-bottom: 1em;
+	}
+
+/*Aufbau col in row*/
+	#index.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+		display:inline-block !important;
+	    width: 49% !important;
+	    margin-left: 0em;
+	    float: none!important;
+	}
+
+	#team.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+		display:inline-block !important;
+	    width: 49% !important;
+	    margin-left: 0em;
+	    float: none!important;
+	}
+
+	#contact.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+		display:inline-block !important;
+	    width: 49% !important;
+	}
+
+/*Notwendig damit es kein Textumbruch gibt in den Boxen*/
+	.box3 h6{
+		font-size: 1em!important;
+		float: bottom;
+	}
+
+/*Impressum*/
+
+	#imprint{
+		margin-top: 2em;
+	}
+
+	#imprintFirst h3{
+		margin-top: 2em;
+	}
+
+	#banner .inner {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	#press h3{
+		margin-top:2em;
+	}

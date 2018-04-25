@@ -1,0 +1,124 @@
+/* Basic */
+
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* List */
+
+		ul.actions {
+			margin-top: 4em;
+		}
+
+		ul.actions li {
+			padding: 1em 0 0 0;
+			display: block;
+			text-align: center;
+			width: 100%;
+			margin-top: -2em;
+		}
+
+			ul.actions li:first-child {
+				padding-top: 0;
+			}
+
+			ul.actions li > * {
+				width: 100%;
+				margin: 0 !important;
+			}
+
+				ul.actions li > *.icon:before {
+					margin-left: -2em;
+				}
+
+		ul.actions.small li {
+			padding: 0.5em 0 0 0;
+		}
+
+			ul.actions.small li:first-child {
+				padding-top: 0;
+			}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		padding: 0;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 5em 2em 4em 2em;
+	}
+
+
+	#banner .inner {
+		line-height: 80px;
+	 	/*line-height: -moz-max-content;
+	 	line-height: -webkit-max-content;
+	 	line-height: -o-max-content;
+	 	line-height: -ms-max-content;
+	 	line-height: max-content;*/
+	 	width: 95%;
+	 	/*height: -moz-max-content;
+		height: -webkit-max-content;
+		height: -o-max-content;
+		height: -ms-max-content;
+		height: max-content;*/
+		height: 80px;
+		padding: 1em 0 1em 0;
+	}
+
+	#banner .withButtons{
+		height: 80px;
+	}
+
+	#banner .inner> h2{
+		font-size: 100%;	
+		line-height: 40px;
+	}
+
+/*BannerbottomTitle*/
+	#bannerBottomTitle h2{
+		font-size: 100%;
+	}
+
+	#bannerBottomTitle p{
+		font-size: 1em;
+	}
+
+/*Aufbau col in row*/
+	#index.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+	    width: 100% !important;
+	    margin-left: 0em !important;
+	    float: none!important;
+	}
+
+/*Team*/
+
+	#teamOne img{
+		/*display: none;*/
+	}
+
+	#teamOne .box3{
+		margin-right: 0em;
+	}
+
+
+
+
+/*Index + Team*/
+	.box3{
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin-left: 0%;
+		padding-left: 0em;
+		padding-right: 0em;
+	}

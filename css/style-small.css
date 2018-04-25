@@ -1,0 +1,158 @@
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+	h2 {
+		font-size: 1.35em;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
+	h4 {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+	section #bannerBottomTitle p{
+		font-size: 1em;
+	}
+
+/* Section/Article */
+
+	header.major {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+		header.major h2 {
+			font-size: 1.5em;
+		}
+
+		header.major h2 + p {
+			font-size: 1.25em;
+			margin: -0.5em 0 2em 0;
+		}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 3em 0 1em 0;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 5em 2em 4em 2em;
+	}
+
+		#banner .inner h2{
+			font-size: 1.5em;
+		}
+
+		#banner p {
+			font-size: 1.25em;
+		}
+
+			#banner .inner {
+				margin-top: 5em;
+				height: 80px;
+				line-height: 80px;
+			}
+
+			#banner .inner> h2{
+				line-height: 80px;
+			}
+
+		ul.actions {
+			margin: 0.5em 0;
+		}
+
+/* Main */
+
+	#main {
+		padding: 4em 0 0 0;
+	}
+
+/* Footer */
+
+	#footer {
+		padding: 2em 0;
+	}
+
+		#footer .copyright{
+			text-align: center;
+		}
+
+			#footer .copyright li{
+				border-left: 0;
+				margin-left: 0;
+				padding-left: 0;
+				display: block;
+			}
+
+/*Aufbau col in row*/
+	#index.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+	    width: 70% !important;
+	    margin-left: 15%!important;
+	    margin-right: 15%!important;
+	    float: none!important;
+	}
+
+	#contact.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+	    width: 100% !important;
+	    margin-left: 0em !important;
+	}
+
+	#team.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3):not(.collapse-at-2) > * {
+		display:inline-block !important;
+	    width: 100% !important;
+	    margin-left: 0em;
+	    float: none!important;
+	}
+
+/*Team*/
+	#teamOne .box3{
+		padding-top: 0;
+		padding-left: 0em!important;
+		padding-right: 0em!important;
+		margin-right: -1em;
+	}
+
+	#teamOne img{
+		width: 40%;
+		float: left;
+		top: 0;  
+	    bottom: 0;  
+	    left: 0;  
+	    right: 0;  
+	    margin: auto;
+	}
+
+	#teamOne{
+		display: block;
+		overflow: auto;
+	}
+
+	#teamOne .box3{
+		margin-top: 2em;
+	} 
+
+
+/*Index*/	
+	.index #bannerBottomTitle h2{
+		font-size: 1.2em;
+	}
+
+	.wrapper.style1.index { 
+		 padding-bottom: 0.5em;
+	}
+
+	#baswordbox .box3{
+		padding: 1em 1em;
+	}
