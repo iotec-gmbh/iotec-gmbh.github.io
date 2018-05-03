@@ -156,3 +156,9 @@
 	#baswordbox .box3{
 		padding: 1em 1em;
 	}
+
+	#socialMediaIcon img{
+		margin-left: 0.5em;
+		height: 32px;
+		width: auto;
+	}
