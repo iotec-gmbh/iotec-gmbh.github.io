@@ -945,6 +945,12 @@
 		width: auto;
 	}
 
+	#socialMediaIconContact img{
+		height: 40px;
+		width: auto;
+		margin: 0.5em;
+	}
+
 	/*Team*/
 	 #teamOne .box3{
 		padding-top: 1.6em;
