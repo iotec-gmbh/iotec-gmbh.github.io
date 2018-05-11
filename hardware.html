@@ -6,7 +6,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script> 
 		<script src="js/init.js"></script>
@@ -16,7 +15,7 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 
-<link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="stylesheet" href="css/normalize.min.css">
 	    <link rel="stylesheet" href="css/defaults.min.css">
 	    <link rel="stylesheet" href="css/nav-core.min.css">
 	    <link rel="stylesheet" href="css/nav-layout.min.css">
@@ -25,9 +24,9 @@
 	<body id="top">
 
 		<!-- Navbar -->
-					<header>
+		<header>
 			<a href="#" class="nav-button">Menu</a>
-			<a href="index.html"><img src="images/logo.png" style="height: 3.9rem!important" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
+			<a href="index.html"><img src="images/logo.png" id="nav-logo" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
 			<nav class="nav">
 			    <ul>
 			        
@@ -65,7 +64,7 @@
 		</header>
 
 		<!-- Bild -->
-			<section id="banner"  style="background-image: url(images/hardware_banner.jpg)">
+			<section id="banner" style="background-image: url(images/hardware_banner.jpg)">
 				<div id="socialMediaIcon">
 					<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
 					<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
@@ -80,9 +79,9 @@
 			<section id="one" class="wrapper style1">
 					
 				<div class="container">
-					<div class="row">
+					<div class="row" id="description">
 						
-						<div class="7u" style=" text-align: center;">
+						<div class="7u">
 							<h2>Hardware</h2>
 							<p>Unterschiedliche Problemstellungen erfordern häufig eine für die Anforderung angepasste elektronische Lösung. So ist in einem Anwendungsfall z.B. eine möglichst lange Akku-Laufzeit notwendig, während bei einer anderen Anwendung besonderes Augenmerk auf Outdoor-Fähigkeit gelegt wird.
 							Um für unterschiedliche Anforderungen eine auf die Aufgabe optimierte Lösung anbieten zu können, ist es in den meisten Fällen notwendig, eine angepasste Elektronik einsetzen zu können. Da die Elektronikentwicklung seit je her zu den Kernkompetenzen der Firma iotec gehört, sind wir in der Lage, solche optimierten Elektroniken anbieten zu können. Hierbei kann auf langjährige Erfahrungen mit der Entwicklung von Analog-, Digital sowie Leistungselektronik zurückgegriffen werden. Häufig beinhalten die Systeme programmierbare Bausteine (Mikroprozessor, FPGA) um komplexe Aufgaben zu lösen und eine hohe Flexibilität zu gewährleisten. Dafür werden diese Embedded Systems entweder direkt programmiert (bare metal) oder mit einem Betriebssystem (Linux / Windows) ausgestattet.
@@ -90,7 +89,7 @@
 							</p>
 						</div>
 						<div class="5u">
-							<img src="images/hardware_bottom.jpg" id="leftImg" style="margin-top: 0.6em" alt="hardware entwicklung iotec gmbh osnabrueck altium platine elektronik">
+							<img src="images/hardware_bottom.jpg" id="leftImg" alt="hardware entwicklung iotec gmbh osnabrueck altium platine elektronik">
 						</div>
 					</div>
 				</div>
@@ -106,14 +105,12 @@
 					</ul>
 				</div>
 			</footer>
+
+
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 			<script src="js/nav.jquery.min.js"></script>
 			<script>
 			    $('.nav').nav();
 			</script>
-
-
-
-
 	</body>
 </html>

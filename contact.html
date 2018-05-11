@@ -6,7 +6,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script> 
 		<script src="js/init.js"></script>
@@ -27,11 +26,12 @@
 		<!-- Navbar -->
 		<header>
 			<a href="#" class="nav-button">Menu</a>
-			<a href="index.html"><img src="images/logo.png" style="height: 3.9rem!important" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
+			<a href="index.html">
+				<img src="images/logo.png" id="nav-logo" alt="iotec gmbh electronic solutions logo osnabrueck">
+			</a>
 			<nav class="nav">
 
 			    <ul>
-			        
 			        <li class="nav-submenu"><a href="#">Kompetenzen</a>
 			            <ul>
 			                <li><a href="industrie.html">Industrie 4.0</a></li>
@@ -89,7 +89,7 @@
 							<p>Albert-Einstein-Straße 1</p>
 							<p>49076 Osnabrück</p>
 							<br/>
-							<p style="text-decoration: none!important">☏ +49 541 - 343 711 - 00</p>
+							<p id="tel-number">☏ +49 541 - 343 711 - 00</p>
 							<p>🖷 +49 541 - 343 711 - 01</p>
 							<a href="mailto:info@iotec-gmbh.de">
 								✉ info@iotec-gmbh.de
@@ -102,9 +102,7 @@
 						</div>
 
 						<div class="8u">
-							
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.582151661497!2d8.019030899999997!3d52.28728749999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e5d93f73863f%3A0x536de668aa61cf65!2sAlbert-Einstein-Stra%C3%9Fe+1%2C+49076+Osnabr%C3%BCck!5e0!3m2!1sde!2sde!4v1410882330684" frameborder="0" style="border:0; width: 100%; display: block; height: 300px"></iframe>
-
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.582151661497!2d8.019030899999997!3d52.28728749999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e5d93f73863f%3A0x536de668aa61cf65!2sAlbert-Einstein-Stra%C3%9Fe+1%2C+49076+Osnabr%C3%BCck!5e0!3m2!1sde!2sde!4v1410882330684" frameborder="0"></iframe>
 						</div>
 
 					</div>
@@ -121,14 +119,11 @@
 					</ul>
 				</div>
 			</footer>
+
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 			<script src="js/nav.jquery.min.js"></script>
 			<script>
 			    $('.nav').nav();
 			</script>
-
-
-
-
 	</body>
 </html>

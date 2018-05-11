@@ -6,7 +6,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script> 
 		<script src="js/init.js"></script>
@@ -27,7 +26,7 @@
 		<!-- Navbar -->
 		<header>
 			<a href="#" class="nav-button">Menu</a>
-			<a href="index.html"><img src="images/logo.png" style="height: 3.9rem!important" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
+			<a href="index.html"><img src="images/logo.png" id="nav-logo" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
 			<nav class="nav">
 
 			    <ul>
@@ -76,27 +75,25 @@
 					<h2>Indoor Lokalisierung</h2>
 				</div>
 			</section>
-			
-<!--p style="color: #FFFFFF;">Die Lösung zur Visualisierung Ihrer Datensammlungen</p-->
-		<!--Option 1-->
+
 			<section id="one" class="wrapper style1">
 					
 				<div class="container">
-					<div class="row">
+					<div class="row" id="description">
 						
-						<div class="7u" style=" text-align: center;">
-							<h2 style="margin-bottom: 0em">Indoor Lokalisierung</h2>
-							<p style="font-size: 0.9em;">Positionsbestimmung&nbsp;&nbsp;•&nbsp;&nbsp;Innenräume&nbsp;&nbsp;•&nbsp;&nbsp;Navigation</p>
+						<div class="7u">
+							<h2>Indoor Lokalisierung</h2>
+							<p id="triple">Positionsbestimmung&nbsp;&nbsp;•&nbsp;&nbsp;Innenräume&nbsp;&nbsp;•&nbsp;&nbsp;Navigation</p>
 							<br/>
 							<p>Indoor Lokalisierung bezeichnet die Positionsbestimmung von Objekten oder Menschen in Gebäuden. Da GPS in Innenräumen wegen des fehlenden Sichtkontaktes zu den GPS-Satelliten nicht zuverlässig funktioniert, ist der Einsatz eines Systems notwendig welches andere Technologien verwendet. Dazu kann z. B. WLAN, Bluetooth, UWB (UltrawideBand) oder RFID (Radio-frequency Identification) eingesetzt werden. 
 							Ultra-wideband ist eine Kurzstrecken-Funktechnik mit einer Genauigkeit liegt bei unter 30cm und ist damit deutlich höher als die von Bluetooth oder WLAN. Auch Höhenunterschiede können sehr genau ermittelt werden. UWB basiert auf dem Laufzeitverfahren Time of Flight (ToF). Dabei wird die Lichtlaufzeit zwischen einem Objekt und mehreren Empfängern (Anker) gemessen. Für die genaue Lokalisierung eines Objektes sind mindestens 3 Empfänger nötig (Trilateration). 
 							</p><br/>
 						</div>
 						<div class="5u">
-							<img src="images/localization_bottom.jpg" style="margin-top: 0.6em" alt="indoor lokalisierung iotec gmbh osnabrueck">
+							<img src="images/localization_bottom.jpg" id="leftImg" alt="indoor lokalisierung iotec gmbh osnabrueck">
 						</div>
 					</div>
-					<div class="row" style=" text-align: center;">
+					<div class="row" id="description">
 						<p>
 							iotec bietet Ihnen eine Möglichkeit der Positionsbestimmung, welche Indoor sowie Outdoor einsetzbar ist. Dazu wird die hochauflösende Technik UWB verwendet, welche im Außenbereich auch um ein GPS ergänzt werden können um eine effiziente Lösung zu erreichen. Diese Positionsbestimmung ist für verschiedene Branchen und Einsatzzwecke einsetzbar. Der Gegenstand dessen Position bestimmt werden soll wird dazu mit einem Tag ausgestattet, welcher mit den Ankern kommuniziert. Die Visualisierung der Navigation und der Positionsbestimmung können mittels <a href="dashboard.html">Web-Portal oder App</a> umgesetzt werden. 
 						</p>
@@ -123,6 +120,8 @@
 					</ul>
 				</div>
 			</footer>
+
+			
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 			<script src="js/nav.jquery.min.js"></script>
 			<script>

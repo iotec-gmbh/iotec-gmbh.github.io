@@ -157,6 +157,10 @@
 		cursor: pointer;
 	}
 
+	#baswordbox{
+		text-decoration: none;
+	}
+
 	#baswordbox h6{
 		font-size: 1.1em!important;
 	}
@@ -888,7 +892,6 @@
 		font-size: 1.5em;
 		color: #777c7f;
 	}
-
 /*Baswordbox in Index + Team*/
 	#baswordbox {
 		all: unset;
@@ -910,7 +913,6 @@
 	#baswordID {
 		margin-bottom: 0;
 	}
-
 
 	#id .\37 {
 		margin-top: 0em;
@@ -983,9 +985,22 @@
 	}
 
 	#research {
+		width: 100%;
+		height: auto;
+		border-radius: 0px!important;
+	}
+
+	#research-big-picture{
 		width: 95%;
 		height: auto;
-		radius:;
+		margin-top: 0.6em;
+	}
+
+	#reserach-sponsors{
+		width: 95%;
+		height: auto;
+		margin-top: 1em; 
+		border-radius: 0px!important
 	}
 
 	#leftImg{
@@ -994,4 +1009,130 @@
 		float: right;
 	}
 
-	
+	#nav-logo{
+		height: 3.9rem!important; 
+	}
+
+	#tel-number{
+		text-decoration: none!important;
+	}
+
+	iframe{
+		 border:0; 
+		 width: 100%; 
+		 display: block; 
+		 height: 300px;
+	}
+
+	#description{
+		text-align: center;
+	}
+
+
+	#description h2{
+		 margin-bottom: 0em;
+	}
+
+	#description img{
+		margin-top: 0.6em;
+	}
+
+	#triple{
+		font-size: 0.9em;
+	}
+
+	#imprint-description{
+		text-align: center;
+		margin-bottom: -0.5em!important;
+	}
+
+	.inner.withButtons h2{
+		text-transform: unset
+	}
+
+	.buzzwords-bottom{
+		padding-top: 0em!important; 
+		padding-bottom: 2em!important;
+	}
+
+	.buzzwords-bottom > section{
+		padding-top: 0!important; 
+		margin-bottom: 0!important;
+	}
+
+	.bgded.overlay #click{
+		all: unset!important; 
+		text-decoration: none!important;
+	}
+
+	.bgded.overlay h6{
+		font-size: 1.1em!important;
+	}
+
+	#footer-in-box a{
+		color: black;
+	}
+
+	#research-block{
+		padding-left: 0em!important;
+	}
+
+	#research-block > h2{
+		text-align: center!important; 
+		margin-bottom: 0!important;
+	}
+
+	#research-block h4{
+		text-align: center!important;
+	}
+
+	#research-block > p{
+		text-align: justify!important;
+	}
+
+	hr{
+		width: 90%; 
+		margin: auto; 
+		height: 1px; 
+		border: none; 
+		background-color: #2e7053;
+	}
+
+	#research-logos{
+		text-align: center!important; 
+		margin-top: 3em!important;
+	}
+
+	#research-logos img{
+		border-radius: 0px!important
+	}
+
+	#office{
+		font-size: 0.8em;
+	} 
+
+	#tel-number{
+		text-decoration: none!important
+	}
+
+	#press{
+		text-align: center
+	}
+
+	#press-text{
+		margin-top: 2em; 
+		text-align: center;
+	}
+
+	.jobs #bannerBottomTitle >h2{
+		margin-bottom: 0.2em;
+	}
+
+	#dataprivacy h3{
+		margin-top: 1.5em; 
+		margin-bottom: 0.5em;
+	}
+
+	#dataprivacy ul{
+		list-style: none;
+	}

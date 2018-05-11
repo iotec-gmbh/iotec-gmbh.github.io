@@ -6,7 +6,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script> 
 		<script src="js/init.js"></script>
@@ -16,7 +15,7 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 
-<link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="stylesheet" href="css/normalize.min.css">
 	    <link rel="stylesheet" href="css/defaults.min.css">
 	    <link rel="stylesheet" href="css/nav-core.min.css">
 	    <link rel="stylesheet" href="css/nav-layout.min.css">
@@ -27,7 +26,7 @@
 		<!-- Navbar -->
 		<header>
 			<a href="#" class="nav-button">Menu</a>
-			<a href="index.html"><img src="images/logo.png" style="height: 3.9rem!important" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
+			<a href="index.html"><img id="nav-logo" src="images/logo.png" alt="iotec gmbh electronic solutions logo osnabrueck"></img></a>
 			<nav class="nav">
 
 			    <ul>
@@ -79,18 +78,18 @@
 			<section id="one" class="wrapper style1">
 					
 				<div class="container">
-					<div class="row">
+					<div class="row" id="description">
 						
-						<div class="7u" style=" text-align: center;">
-							<h2 style="margin-bottom: 0em">Dashboard</h2>
-							<p style="font-size: 0.9em;">Plattformübergreifend&nbsp;&nbsp;•&nbsp;&nbsp;Web Visualisierung&nbsp;&nbsp;•&nbsp;&nbsp;Responsives Design</p>
+						<div class="7u">
+							<h2>Dashboard</h2>
+							<p id="triple">Plattformübergreifend&nbsp;&nbsp;•&nbsp;&nbsp;Web Visualisierung&nbsp;&nbsp;•&nbsp;&nbsp;Responsives Design</p>
 							<br/>
 							<p>Ein Dashboard dient der visuellen Darstellung einer breiten Masse von gesammelten Daten. So können laufend erfasste Messwerte einer Maschine, eines Fahrzeuges oder einzelner Bauteile nicht nur eingesehen, sondern ausgewertet werden, um in Echtzeit darauf reagieren zu können. Dashboard und <a href="predictiveMaintaineance.html">Predictive Maintenance</a> lassen sich so ideal kombinieren.</p>
 							<br/>
 							<p>Ein auf Ihren Anwendungsbereich maßgeschneidertes Dashboard bietet Ihnen einen stabilen Rahmen zur Analyse Ihrer Messwerte. Auf Basis von modernen Technologien und Frameworks setzen wir all Ihre individuellen Anforderungen um. Dabei können mögliche Schnittstellen zu ihren firmeninternen Content-Management-Systemen oder anderen Kanälen mit einfließen.</p>
 						</div>
 						<div class="5u">
-							<img src="images/dashboard_bottom.jpg" id="leftImg" style="margin-top: 0.6em" alt="dashboard web portal app iotec gmbh osnabrueck">
+							<img src="images/dashboard_bottom.jpg" id="leftImg" alt="dashboard web portal app iotec gmbh osnabrueck">
 						</div>
 					</div>
 				</div>
@@ -120,9 +119,6 @@
 			<script>
 			    $('.nav').nav();
 			</script>
-
-
-
 
 	</body>
 </html>
