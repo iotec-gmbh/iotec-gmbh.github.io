@@ -12,3 +12,15 @@ deploy:
     - echo "quit;" >> /tmp/ftpcmd
     - lftp --debug -f /tmp/ftpcmd
     - rm /tmp/ftpcmd
+
+gh-deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - apk --update add git openssh-client
+    - mkdir -p ~/.ssh
+    - echo "${GH_DEPLOY_KEY}" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan github.com >> ~/.ssh/known_hosts
+    - git push -f git@github.com:iotec-gmbh/iotec-gmbh.github.io.git ${CI_COMMIT_SHA}:master
