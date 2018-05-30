@@ -9,6 +9,15 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script> 
 		<script src="js/init.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+			$(function(){
+			  $("#header-bar").load("header.html");
+			  $("#footer-bar").load("footer.html");
+			});
+		</script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -19,128 +28,54 @@
 	    <link rel="stylesheet" href="css/defaults.min.css">
 	    <link rel="stylesheet" href="css/nav-core.min.css">
 	    <link rel="stylesheet" href="css/nav-layout.min.css">
-	    
+
 	</head>
-	<body id="top">
-
-		<!-- Navbar -->
-		<header>
-			<a href="#" class="nav-button">Menu</a>
-			<a href="index.html">
-				<img src="images/logo.png" id="nav-logo" alt="iotec gmbh electronic solutions logo osnabrueck">
-			</a>
-			<nav class="nav">
-
-			    <ul>
-			        <li class="nav-submenu"><a href="#">Kompetenzen</a>
-			            <ul>
-			                <li><a href="industrie.html">Industrie 4.0</a></li>
-			                <li><a href="iot.html">Internet of Things</a></li>
-			                <li><a href="predictiveMaintaineance.html">Predictive Maintenance</a></li>
-			                <li><a href="localization.html">Indoor Lokalisierung</a></li>
-			                <li><a href="machineLearning.html">Machine Learning</a></li>
-			                <li><a href="dashboard.html">Dashboard</a></li>
-			                
-			            </ul>
-			        </li>
-			        <li class="nav-submenu"><a href="#">Sonderlösungen</a>
-			        	<ul>
-			                <li><a href="hardware.html">Hardware</a></li>
-			                <li><a href="software.html">Software</a></li>
-			                <li><a href="production.html">Fertigung</a></li>
-			            </ul>
-			        </li>
-			        <li><a href="research.html">Forschung</a></li> 
-			        <!--li><a href="references.html">Referenzen</a></li-->
-			        <li class="nav-submenu"><a href="#">Unternehmen</a>
-			        	<ul>
-			                <li><a href="team.html">Das Team</a></li>
-			                <li><a href="jobs.html">Karriere</a></li>
-			            </ul>
-			        </li>
-			        <li><a href="press.html">Pressebereich</a></li>
-			        <li><a href="contact.html" class="button special" data-activates="">Kontakt</a></li>
-			    </ul>
-
-			</nav>
-		</header>
+	<body>
+		<div id="header-bar"></div>
 
 		<!-- Bild -->
-			<section id="banner" style="background-image: url(images/contact_banner.jpg)">
-				<div id="socialMediaIcon">
-					<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
-					<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
-					<a href="https://www.xing.com/companies/iotecgmbh" target="_blank"><img src="images/iconXing2.png"></a>
-				</div>
-				<div class="inner">
-					<h2>Kontakt</h2>
-				</div>
-			</section>
+		<section id="banner" style="background-image: url(images/contact_banner.jpg)">
+			<div id="socialMediaIcon">
+				<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
+				<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
+				<a href="https://www.xing.com/companies/iotecgmbh" target="_blank"><img src="images/iconXing2.png"></a>
+			</div>
+			<div class="inner">
+				<h2>Kontakt</h2>
+			</div>
+		</section>
 
-
-			<!--Option 1-->
-			<section id="one" class="wrapper style1 contact">
+		<section id="one" class="wrapper style1 contact">
+				
+			<div class="container">
+				<div class="row" id="contact">
 					
-				<div class="container">
-					<div class="row" id="contact">
-						
-						<div class="4u">
-							<h2>iotec GmbH</h2>
-							<p>Albert-Einstein-Straße 1</p>
-							<p>49076 Osnabrück</p>
-							<br/>
-							<p id="tel-number">☏ +49 541 - 343 711 - 00</p>
-							<p>🖷 +49 541 - 343 711 - 01</p>
-							<a href="mailto:info@iotec-gmbh.de">
-								✉ info@iotec-gmbh.de
-							</a>
-							<div id="socialMediaIconContact">
-								<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
-								<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
-								<a href="https://www.xing.com/companies/iotecgmbh" target="_blank"><img src="images/iconXing2.png"></a>
-							</div>
+					<div class="4u">
+						<h2>iotec GmbH</h2>
+						<p>Albert-Einstein-Straße 1</p>
+						<p>49076 Osnabrück</p>
+						<br/>
+						<p id="tel-number">☏ +49 541 - 343 711 - 00</p>
+						<p>🖷 +49 541 - 343 711 - 01</p>
+						<a href="mailto:info@iotec-gmbh.de">
+							✉ info@iotec-gmbh.de
+						</a>
+						<div id="socialMediaIconContact">
+							<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
+							<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
+							<a href="https://www.xing.com/companies/iotecgmbh" target="_blank"><img src="images/iconXing2.png"></a>
 						</div>
-
-						<div class="8u">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.582151661497!2d8.019030899999997!3d52.28728749999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e5d93f73863f%3A0x536de668aa61cf65!2sAlbert-Einstein-Stra%C3%9Fe+1%2C+49076+Osnabr%C3%BCck!5e0!3m2!1sde!2sde!4v1410882330684" frameborder="0"></iframe>
-						</div>
-
 					</div>
+
+					<div class="8u">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.582151661497!2d8.019030899999997!3d52.28728749999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e5d93f73863f%3A0x536de668aa61cf65!2sAlbert-Einstein-Stra%C3%9Fe+1%2C+49076+Osnabr%C3%BCck!5e0!3m2!1sde!2sde!4v1410882330684" frameborder="0"></iframe>
+					</div>
+
 				</div>
-			</section>
+			</div>
+		</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="copyright">
-						<li>&copy; 2018 iotec GmbH. All rights reserved.</li>
-						<li><a href="imprint.html">Impressum</a></li>
-						<li><a href="dataprivacy.html">Datenschutz</a></li>
-
-						<!--li>
-							<a id="language-box" href="#">
-      							<div class="txtwrap active">
-					            	<p>DE</p>
-      							</div>
-      						</a>
-      					</li>
-
-						<li>
-							<a id="language-box" href="index-en.html" hreflang="en">
-      							<div class="txtwrap active">
-					            	<p>EN</p>
-      							</div>
-      						</a>
-						</li-->
-
-					</ul>
-				</div>
-			</footer>
-
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-			<script src="js/nav.jquery.min.js"></script>
-			<script>
-			    $('.nav').nav();
-			</script>
+		<div id="footer-bar"></div>
+		
 	</body>
 </html>

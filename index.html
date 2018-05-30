@@ -7,9 +7,19 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script> 
 		<script src="js/init.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+			$(function(){
+			  $("#header-bar").load("header.html");
+			  $("#footer-bar").load("footer.html");
+			});
+		</script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -22,260 +32,182 @@
 	    <link rel="stylesheet" href="css/nav-layout.min.css">
 
 	</head>
-	<body id="top">
+	<body>
 
-		<header>
-			<a href="index.html">
-				<img src="images/logo.png" id="nav-logo" alt="iotec gmbh electronic solutions logo osnabrueck">
-			</a>
+		<div id="header-bar"></div>
 
-			<a href="#" class="nav-button">Menu</a>
-			
-			<nav class="nav">
-			    <ul>
-			        <li class="nav-submenu"><a href="#">Kompetenzen</a>
-			            <ul>
-			                <li><a href="industrie.html">Industrie 4.0</a></li>
-			                <li><a href="iot.html">Internet of Things</a></li>
-			                <li><a href="predictiveMaintaineance.html">Predictive Maintenance</a></li>
-			                <li><a href="localization.html">Indoor Lokalisierung</a></li>
-			                <li><a href="machineLearning.html">Machine Learning</a></li>
-			                <li><a href="dashboard.html">Dashboard</a></li>
-			                
-			            </ul>
-			        </li>
-			        <li class="nav-submenu"><a href="#">Sonderlösungen</a>
-			        	<ul>
-			                <li><a href="hardware.html">Hardware</a></li>
-			                <li><a href="software.html">Software</a></li>
-			                <li><a href="production.html">Fertigung</a></li>
-			            </ul>
-			        </li>
-			        <li><a href="research.html">Forschung</a></li> 
-			        <!--li><a href="references.html">Referenzen</a></li-->
-			        <li class="nav-submenu"><a href="#">Unternehmen</a>
-			        	<ul>
-			                <li><a href="team.html">Das Team</a></li>
-			                <li><a href="jobs.html">Karriere</a></li>
-			            </ul>
-			        </li>
-			        <li><a href="press.html">Pressebereich</a></li>
+		<!-- Banner -->
+		<section id="banner" style="background-image: url(images/index_banner.jpg)";>
+			<div id="socialMediaIcon">
+				<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
+				<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
+				<a href="https://www.xing.com/companies/iotecgmbh" target="_blank"><img src="images/iconXing2.png"></a>
+			</div>
+			<div class="inner withButtons">
+				<h2>iotec GmbH</h2>
+				<ul class="actions" >
+					<li><a href="contact.html" class="button big alt">Kontakt</a></li>
+					<li><a href="jobs.html" class="button big alt">Karriere</a></li>
+				</ul>
+			</div>
+		</section>
 
-			        <li><a href="contact.html" class="button special" data-activates="">Kontakt</a></li>
-			    </ul>
+	<!--Option 1-->
+		<section id="one" class="wrapper style1 index">
+			<div class="container" id="bannerBottomTitle">
+				<h2>Unsere Kompetenzen</h2>
+				<p>Wir sind Ihr Entwicklungs- und Fertigungsdienstleister im Bereich der Sensorik</p>
+			</div>
+		</section>
 
-			</nav>
-			
-			
-		</header>
+		<!--Option4-->
 
-
-		<!-- Bild -->
-			<section id="banner" style="background-image: url(images/index_banner.jpg)";>
-				<div id="socialMediaIcon">
-					<a href="https://www.facebook.com/iotecGmbH/" target="_blank"><img src="images/iconFacebook2.png"></a>
-					<a href="https://www.instagram.com/iotecgmbh/" target="_blank"><img src="images/iconInstagram2.png"></a>
-					<a href="https://www.xing.com/companies/iotecgmbh" target="_blank"><img src="images/iconXing2.png"></a>
-				</div>
-				<div class="inner withButtons">
-					<h2>iotec GmbH</h2>
-					<ul class="actions" >
-						<li><a href="contact.html" class="button big alt">Kontakt</a></li>
-						<li><a href="jobs.html" class="button big alt">Karriere</a></li>
-					</ul>
-				</div>
-			</section>
-
-		<!--Option 1-->
-			<section id="one" class="wrapper style1 index">
-				<div class="container" id="bannerBottomTitle">
-					<h2>Unsere Kompetenzen</h2>
-					<p>Wir sind Ihr Entwicklungs- und Fertigungsdienstleister im Bereich der Sensorik</p>
-				</div>
-			</section>
-
-			<!--Option4-->
-
-				<div id="extra" style="background-image: url(images/index_background.jpg)">
-					<div class="container">
-						<div class="row no-collapse-1" id="index">
-							<section class="4u">
-								<a href="industrie.html" class="image featured">
-									<img src="images/index_industrie.jpg" alt="industrie 4.0 iotec gmbh osnabreuck">
-								</a>
-								<a href="industrie.html" id="baswordbox"> 
-									<div class="box3">
-										<h6 class="heading">
-											Industrie 4.0
-										</h6>
-										<p>Kommunikation auf Basis digital vernetzter Systeme und Anwendungen</p>
-									</div>
-								</a>
-							</section>
-							<section class="4u">
-								<a href="iot.html" class="image featured">
-									<img src="images/index_internetOfThings.jpg" alt="internet of things iotec gmbh osnabreuck">
-								</a>
-								<a href="iot.html" id="baswordbox"> 
-									<div class="box3">
-										<h6 class="heading">
-											Internet of Things
-										</h6>
-										<p>Vernetzung von physikalischen und virtuellen Komponenten</p>
-									</div>
-								</a>
-							</section>
-							<section class="4u">
-								<a href="predictiveMaintaineance.html" class="image featured" id="imgbaswordbox">
-									<img src="images/index_predictiveMaintaineance.jpg" alt="predictive maintenance iotec gmbh osnabreuck">
-								</a>
-								<a href="predictiveMaintaineance.html" id="baswordbox"> 
-									<div class="box3">
-										<h6 class="heading">
-											Predictive Maintenance
-										</h6>
-										<p>Vorausschauende Wartung von Maschinen, Anlagen und Geräten</p>
-									</div>
-								</a>
-							</section>
-
-							<section class="4u" id="baswordID">
-								<a href="localization.html" class="image featured">
-									<img src="images/index_localization.jpg" alt="indoor localisation iotec gmbh osnabreuck">
-								</a>
-								<a href="localization.html" id="baswordbox"> 
-									<div class="box3">
-										<h6 class="heading">
-											Indoor Lokalisierung
-										</h6>
-										<p>Hochauflösende Indoor Positionierung sowie Navigation</p>
-									</div>
-								</a>
-							</section>
-						
-							<section class="4u" id="baswordID">
-								<a href="machineLearning.html" class="image featured">
-									<img src="images/index_machineLearning.jpg" alt="machine learning iotec gmbh osnabreuck">
-								</a>
-								<a href="machineLearning.html" id="baswordbox"> 
-									<div class="box3">
-										<h6 class="heading">
-											Machine Learning
-										</h6>
-										<p>Automatische Diagnosen und intelligente Entscheidungen in Echtzeit</p>
-									</div>
-								</a>
-							</section>
-							<section class="4u" id="baswordID">
-								<a href="dashboard.html" class="image featured">
-									<img src="images/index_dashboard.jpg" alt="dashboard iotec gmbh osnabreuck">
-								</a>
-								<a href="dashboard.html" id="baswordbox"> 
-									<div class="box3">
-										<h6 class="heading">
-											Dashboard
-										</h6>
-										<p>Anwendungen im responsiven Webdesgin für Endgeräte jeder Art</p>
-									</div>
-								</a>
-							</section>
-						</div>
-						
-					</div>
-				</div>
-
-			<!--Option5-->
-
-			<section id="one" class="wrapper style1 index">
-					
-				<div class="container" id="bannerBottomTitle">
-					<h2>Unsere Entwicklungsbereiche</h2>
-					<p>Wir sind Ihr Partner für die Umsetzung ihrer digitalen und elektronischen Idee</p>
-				</div>
-			</section>
-
-			<div id="extra" class="buzzwords-bottom">
-			<section id="one" class="wrapper style1">
+			<div id="extra" style="background-image: url(images/index_background.jpg)">
 				<div class="container">
-					<div class="row" id="index">
-						<div class="4u">
-							<article class="bgded overlay" style="background-image:url('images/index_hardware.jpg')">
-          						<a id="click" href="hardware.html">
-          							<div class="txtwrap active">
-						            <i class="block fa fa-4x fa-laptop "></i>
-						            <h6 class="heading">Hardware</h6>
-						            <p>Entwicklung vielfältiger elektronischer Systeme und Sensoren für viele Einsatzgebiete</p>
-						            <footer id="footer-in-box"><a href="hardware.html">Mehr &raquo;</a></footer>
-          						</div></a>
-          					</article>
-						</div>
-						<div class="4u">
-							<article class="bgded overlay" style="background-image:url('images/index_software.jpg')">
-          						<a id="click" href="software.html" >
-          							<div class="txtwrap active">
-						            <i class="block fa fa-4x fa-code "></i>
-						            <h6 class="heading" >Software</h6>
-						            <p>Software für zuverlässige und vielfältige Lösungen komplexer Herausforderungen</p>
-						            <footer id="footer-in-box"><a href="software.html" >Mehr &raquo;</a></footer>
-          						</div></a>
-          					</article>
-						</div>
-						<div class="4u">
-							<article class="bgded overlay" style="background-image:url('images/index_production.jpg')">
-          						<a id="click" href="production.html">
-          							<div class="txtwrap active ">
-						            <i class="block fa fa-4x fa-wrench "></i>
-						            <h6 class="heading" >Fertigung</h6>
-						            <p>Fertigung von individuellen Elektroniken und Geräten von Einzelstücken bis zur Serie</p>
-						            <footer id="footer-in-box"><a href="production.html" >Mehr &raquo;</a></footer>
-          						</div></a>
-          					</article>
-						</div>
+					<div class="row no-collapse-1" id="index">
+						<section class="4u">
+							<a href="industrie.html" class="image featured">
+								<img src="images/index_industrie.jpg" alt="industrie 4.0 iotec gmbh osnabreuck">
+							</a>
+							<a href="industrie.html" id="baswordbox"> 
+								<div class="box3">
+									<h6 class="heading">
+										Industrie 4.0
+									</h6>
+									<p>Kommunikation auf Basis digital vernetzter Systeme und Anwendungen</p>
+								</div>
+							</a>
+						</section>
+						<section class="4u">
+							<a href="iot.html" class="image featured">
+								<img src="images/index_internetOfThings.jpg" alt="internet of things iotec gmbh osnabreuck">
+							</a>
+							<a href="iot.html" id="baswordbox"> 
+								<div class="box3">
+									<h6 class="heading">
+										Internet of Things
+									</h6>
+									<p>Vernetzung von physikalischen und virtuellen Komponenten</p>
+								</div>
+							</a>
+						</section>
+						<section class="4u">
+							<a href="predictiveMaintaineance.html" class="image featured" id="imgbaswordbox">
+								<img src="images/index_predictiveMaintaineance.jpg" alt="predictive maintenance iotec gmbh osnabreuck">
+							</a>
+							<a href="predictiveMaintaineance.html" id="baswordbox"> 
+								<div class="box3">
+									<h6 class="heading">
+										Predictive Maintenance
+									</h6>
+									<p>Vorausschauende Wartung von Maschinen, Anlagen und Geräten</p>
+								</div>
+							</a>
+						</section>
+
+						<section class="4u" id="baswordID">
+							<a href="localization.html" class="image featured">
+								<img src="images/index_localization.jpg" alt="indoor localisation iotec gmbh osnabreuck">
+							</a>
+							<a href="localization.html" id="baswordbox"> 
+								<div class="box3">
+									<h6 class="heading">
+										Indoor Lokalisierung
+									</h6>
+									<p>Hochauflösende Indoor Positionierung sowie Navigation</p>
+								</div>
+							</a>
+						</section>
+					
+						<section class="4u" id="baswordID">
+							<a href="machineLearning.html" class="image featured">
+								<img src="images/index_machineLearning.jpg" alt="machine learning iotec gmbh osnabreuck">
+							</a>
+							<a href="machineLearning.html" id="baswordbox"> 
+								<div class="box3">
+									<h6 class="heading">
+										Machine Learning
+									</h6>
+									<p>Automatische Diagnosen und intelligente Entscheidungen in Echtzeit</p>
+								</div>
+							</a>
+						</section>
+						<section class="4u" id="baswordID">
+							<a href="dashboard.html" class="image featured">
+								<img src="images/index_dashboard.jpg" alt="dashboard iotec gmbh osnabreuck">
+							</a>
+							<a href="dashboard.html" id="baswordbox"> 
+								<div class="box3">
+									<h6 class="heading">
+										Dashboard
+									</h6>
+									<p>Anwendungen im responsiven Webdesgin für Endgeräte jeder Art</p>
+								</div>
+							</a>
+						</section>
 					</div>
+					
 				</div>
-			</section>
 			</div>
 
-		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<div class="container">
-				</div>
-			</section>
+		<!--Option5-->
 
-			
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="copyright">
-						<li>&copy; 2018 iotec GmbH. All rights reserved.</li>
-						<li><a href="imprint.html">Impressum</a></li>
-						<li><a href="dataprivacy.html">Datenschutz</a></li>
+		<section id="one" class="wrapper style1 index">
+				
+			<div class="container" id="bannerBottomTitle">
+				<h2>Unsere Entwicklungsbereiche</h2>
+				<p>Wir sind Ihr Partner für die Umsetzung ihrer digitalen und elektronischen Idee</p>
+			</div>
+		</section>
 
-						<!--li>
-							<a id="language-box" href="#">
+		<div id="extra" class="buzzwords-bottom">
+		<section id="one" class="wrapper style1">
+			<div class="container">
+				<div class="row" id="index">
+					<div class="4u">
+						<article class="bgded overlay" style="background-image:url('images/index_hardware.jpg')">
+      						<a id="click" href="hardware.html">
       							<div class="txtwrap active">
-					            	<p>DE</p>
-      							</div>
-      						</a>
-      					</li>
-
-						<li>
-							<a id="language-box" href="index-en.html" hreflang="en">
+					            <i class="block fa fa-4x fa-laptop "></i>
+					            <h6 class="heading">Hardware</h6>
+					            <p>Entwicklung vielfältiger elektronischer Systeme und Sensoren für viele Einsatzgebiete</p>
+					            <footer id="footer-in-box"><a href="hardware.html">Mehr &raquo;</a></footer>
+      						</div></a>
+      					</article>
+					</div>
+					<div class="4u">
+						<article class="bgded overlay" style="background-image:url('images/index_software.jpg')">
+      						<a id="click" href="software.html" >
       							<div class="txtwrap active">
-					            	<p>EN</p>
-      							</div>
-      						</a>
-						</li-->
-
-					</ul>
+					            <i class="block fa fa-4x fa-code "></i>
+					            <h6 class="heading" >Software</h6>
+					            <p>Software für zuverlässige und vielfältige Lösungen komplexer Herausforderungen</p>
+					            <footer id="footer-in-box"><a href="software.html" >Mehr &raquo;</a></footer>
+      						</div></a>
+      					</article>
+					</div>
+					<div class="4u">
+						<article class="bgded overlay" style="background-image:url('images/index_production.jpg')">
+      						<a id="click" href="production.html">
+      							<div class="txtwrap active ">
+					            <i class="block fa fa-4x fa-wrench "></i>
+					            <h6 class="heading" >Fertigung</h6>
+					            <p>Fertigung von individuellen Elektroniken und Geräten von Einzelstücken bis zur Serie</p>
+					            <footer id="footer-in-box"><a href="production.html" >Mehr &raquo;</a></footer>
+      						</div></a>
+      					</article>
+					</div>
 				</div>
-			</footer>
+			</div>
+		</section>
+		</div>
 
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-			<script src="js/nav.jquery.min.js"></script>
-			<script>
-			    $('.nav').nav();
-			</script>
+		<section id="two" class="wrapper style2">
+			<div class="container">
+			</div>
+		</section>
+		
+		<div id="footer-bar"></div>
 
 	</body>
 </html>
