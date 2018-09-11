@@ -1,18 +1,5 @@
 image: alpine:latest
 
-deploy:
-  stage: deploy
-  only:
-    - master
-  script:
-    - apk --update add lftp
-    - echo "set ftp:ssl-allow no;" >> /tmp/ftpcmd
-    - echo "open -u $USER,$PASSWORD -p 20021 h2;" >> /tmp/ftpcmd
-    - echo "mirror -Rev ./ ./ --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/" >> /tmp/ftpcmd
-    - echo "quit;" >> /tmp/ftpcmd
-    - lftp --debug -f /tmp/ftpcmd
-    - rm /tmp/ftpcmd
-
 gh-deploy:
   stage: deploy
   only:
