@@ -20,3 +20,11 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+
+about:
+  description: |
+    Die iotec GmbH ist ein etablierter Entwicklungs- und Fertigungsdienstleister im Bereich der Sensorik mit forschungsnaher Hochschulanbindung.
+    Das Team setzt sich aus hochqualifizierten, motivierten und erfahrenen Mitarbeitern zusammen.
+    Alle Angestellten von iotec haben eine naturwissenschaftliche Ausbildung absolviert (Elektrotechnik, Informatik, Physik, Mathematik, Biologie).
+    Das Unternehmen erarbeitet individuelle Lösungen im Bereich der Elektronik und Automatisierungstechnik.
+    Hierbei wird der Kunde von der Idee bis zum Serienprodukt begleitet.
