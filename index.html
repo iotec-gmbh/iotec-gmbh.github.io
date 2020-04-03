@@ -97,6 +97,17 @@ layout: landing
 						</div>
 					</section>
 
+				<!-- References -->
+				<section id="references" class="wrapper style5">
+					<div class="inner">
+						<ul class="references">
+							{% for ref in site.references %}
+							<li><a href="{{ ref.url }}" target="_blank"><img src="{{ ref.image }}" href="www.google.de"/></a></li>
+							{% endfor %}
+						</ul>
+					</div>
+				</section>
+
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
