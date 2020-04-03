@@ -629,6 +629,30 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		&.references {
+			list-style: none;
+			text-align: center;
+			padding: 0 0 0 0;
+
+			li {
+				display: inline-block;
+				padding: 1em 1em 1em 1em;
+
+				&:last-child {
+					padding-right: 0 !important;
+				}
+			}
+
+			img {
+			    max-width: 10em;
+				max-height: 5em;
+				vertical-align: middle;
+			}
+
+			a {
+				border-bottom: none;
+			}
+		}
 		&.actions {
 			cursor: default;
 			list-style: none;

@@ -28,3 +28,16 @@ about:
     Alle Angestellten von iotec haben eine naturwissenschaftliche Ausbildung absolviert (Elektrotechnik, Informatik, Physik, Mathematik, Biologie).
     Das Unternehmen erarbeitet individuelle Lösungen im Bereich der Elektronik und Automatisierungstechnik.
     Hierbei wird der Kunde von der Idee bis zum Serienprodukt begleitet.
+
+# References
+# To add new references, just copy the image to the images and add a new entry
+# in the list below.
+references:
+  - image: images/boge.svg
+    url: https://www.boge-rubber-plastics.com
+  - image: images/bayer.svg
+    url: https://www.bayer.de
+  - image: images/inoex.svg
+    url: https://www.inoex.de
+  - image: images/nietfeld.jpg
+    url: http://www.bodenprobetechnik.de
