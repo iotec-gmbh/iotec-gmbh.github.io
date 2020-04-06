@@ -29,6 +29,9 @@ You can then install Jekyll with:
 gem install jekyll bundler
 ```
 
+You might need to run this command with `sudo`, or,
+[set up a path in your home folder to install to](https://jekyllrb.com/docs/installation/ubuntu/).
+
 ### Build Page
 
 Go to the folder that contains this repository.
