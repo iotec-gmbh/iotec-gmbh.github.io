@@ -21,6 +21,13 @@ markdown: kramdown
 #sass:
 #  style: compressed
 
+# Exlude files and directories from the page
+exclude:
+  # Seems like Jekyll is trying to build what is inside this directory
+  - vendor/
+  # This is for internal usage only
+  - HOWTO.md
+
 about:
   description: |
     Die iotec GmbH ist ein etablierter Entwicklungs- und Fertigungsdienstleister im Bereich der Sensorik mit forschungsnaher Hochschulanbindung.
