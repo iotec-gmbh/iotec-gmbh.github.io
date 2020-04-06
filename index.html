@@ -7,14 +7,15 @@ layout: landing
 							<h2>{{ site.title }}</h2>
 							<p>{{ site.description | markdownify }}</p>
 							<ul class="actions">
-								<li><a href="#one" class="button special">Über Uns</a></li>
+								<li><a href="#about" class="button special">Über Uns</a></li>
+								<li><a href="#contact" class="button special">Kontakt</a></li>
 							</ul>
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#about" class="more scrolly">Learn More</a>
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style6 special">
+					<section id="about" class="wrapper style6 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Über Uns</h2>
@@ -39,7 +40,7 @@ layout: landing
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
+					<section id="services" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
 								<h2>Beratung</h2>
@@ -97,6 +98,17 @@ layout: landing
 						</div>
 					</section>
 
+					<!-- Contact -->
+					<section id="contact" class="wrapper style2 special">
+						<div class="inner">
+							<ul>
+								<li><h3>Adresse</h3>Albert-Einstein-Straße 1</br>D - 49076 Osnabrück</li>
+								<li><h3>Telefon</h3><a target="_blank" href="tel:{{ site.social.phone }}">{{ site.social.phone }}</a></li>
+								<li><h3>E-Mail</h3><a target="_blank" href="mailto:{{ site.social.email }}">{{ site.social.email }}</a></li>
+							</ul>
+						</div>
+					</section>
+
 				<!-- References -->
 				<section id="references" class="wrapper style5">
 					<div class="inner">
@@ -112,12 +124,12 @@ layout: landing
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Interesse?</h2>
+								<p>Kontaktieren Sie uns einfach oder stöbern Sie noch ein wenig weiter.</p>
 							</header>
 							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="#about" class="button fit special">Über Uns</a></li>
+								<li><a href="#contact" class="button fit">Kontakt</a></li>
 							</ul>
 						</div>
 					</section>
