@@ -21,11 +21,6 @@ layout: landing
 								<h2>Über Uns</h2>
 								{{ site.about.description | markdownify }}
 							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-user major style1"><span class="label">Beratung</span></span></li>
-								<li><span class="icon fa-laptop major style2"><span class="label">Entwicklung</span></span></li>
-								<li><span class="icon fa-rocket major style3"><span class="label">Forschung</span></span></li>
-							</ul>
 							<ul class="members major">
 								<li>
 									<img src="images/daniel.jpg" alt=""/>
@@ -61,39 +56,13 @@ layout: landing
 						</section>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
+					<!-- References -->
+					<section id="references" class="wrapper style5">
 						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
+							<ul class="references">
+								{% for ref in site.references %}
+								<li><a href="{{ ref.url }}" target="_blank"><img src="{{ ref.image }}" href="www.google.de"/></a></li>
+								{% endfor %}
 							</ul>
 						</div>
 					</section>
@@ -108,17 +77,6 @@ layout: landing
 							</ul>
 						</div>
 					</section>
-
-				<!-- References -->
-				<section id="references" class="wrapper style5">
-					<div class="inner">
-						<ul class="references">
-							{% for ref in site.references %}
-							<li><a href="{{ ref.url }}" target="_blank"><img src="{{ ref.image }}" href="www.google.de"/></a></li>
-							{% endfor %}
-						</ul>
-					</div>
-				</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
