@@ -640,7 +640,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			img {
-			    max-width: 10em;
+				width: 10em;
 				max-height: 5em;
 				vertical-align: middle;
 			}
