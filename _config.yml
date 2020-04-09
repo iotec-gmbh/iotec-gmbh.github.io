@@ -60,19 +60,19 @@ references:
 # *title*: Title of the service
 # *description*: Description of the service. Intepreted as Markdown.
 services:
-  - image: images/pic01.jpg
+  - image: images/consulting.jpg
     title: Beratung
     description: |
         Aliquam ut ex ut augue consectetur interdum.
         Donec hendrerit imperdiet.
         Mauris eleifend fringilla nullam aenean mi ligula.
-  - image: images/pic02.jpg
+  - image: images/entwicklung.png
     title: Entwicklung
     description: |
         Aliquam ut ex ut augue consectetur interdum.
         Donec hendrerit imperdiet.
         Mauris eleifend fringilla nullam aenean mi ligula.
-  - image: images/pic03.jpg
+  - image: images/forschung.png
     title: Forschung
     description: |
         Aliquam ut ex ut augue consectetur interdum.
