@@ -63,18 +63,28 @@ services:
   - image: images/consulting.jpg
     title: Beratung
     description: |
-        Aliquam ut ex ut augue consectetur interdum.
-        Donec hendrerit imperdiet.
-        Mauris eleifend fringilla nullam aenean mi ligula.
+        Sie fragen sich welche Messmöglichkeiten es für Ihre Prozesse gibt
+        und wie man diese am besten in Ihre eigene Infrastruktur integriert?
+        Wir beraten Sie gerne!
+
+        Nachdem wir gemeinsam Ihre Situation analysiert haben,
+        erarbeiten wir ein Konzept mit Ihnen.
+        Durch unser interdisziplinäres Team und unser Netzwerk in Industrie und Forschung,
+        haben sie dabei Zugriff auf eine breite Wissensbasis.
   - image: images/entwicklung.png
     title: Entwicklung
     description: |
-        Aliquam ut ex ut augue consectetur interdum.
-        Donec hendrerit imperdiet.
-        Mauris eleifend fringilla nullam aenean mi ligula.
+        Ob die Elektronik für ihre Spezialanwendung oder das komplette Sensorsystem –
+        wir entwickeln eine für Sie maßgeschneiderte Lösung.
+
+        Sie profitieren dabei von unserem jungen und innovativen Team mit Expertise im Software- und im Hardwarebereich.
+
+        Durch unser Projektmanagement sind Sie immer nah am Entwicklungsprozess und behalten so den vollen Überblick.
+        Gemeinsam können wir schnell auf äußere Einflüsse oder neue Entwicklungen reagieren.
   - image: images/forschung.png
     title: Forschung
     description: |
-        Aliquam ut ex ut augue consectetur interdum.
-        Donec hendrerit imperdiet.
-        Mauris eleifend fringilla nullam aenean mi ligula.
+        Wir haben den Anspruch immer die neuesten Erkenntnisse und Technologien in unsere Arbeit zu integrieren.
+        Deshalb sind wir aktiver Forschungspartner in vielen industriellen Forschungsprojekten.
+        Dabei werden wir von einem großen Netzwerk aus verschiedenen Hochschuleinrichtungen
+        und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/) und dem [Fraunhofer Institut](https://www.fraunhofer.de/) unterstützt.
