@@ -53,13 +53,10 @@ Welche Technologien sollte ich einsetzen, wenn ich nur sehr **limitierte Energie
 Wie müssen Sensorsysteme aufgebaut sein, damit sie auch unter **schwierigen Umweltbedingungen** weiter zuverlässig funktionieren?
 Und wie wird eine möglichst **einfache Inbetriebnahme** geschaffen?
 
-So wird im Forschungsprojekt 'Nagerfalle' die Möglichkeit untersucht, Nagerfallen mit Sensorik auszustatten,
-um die verschiedenen Zustände der Falle zu erkennen.
-Ziel ist es, auf diese Weise den manuellen Wartungsaufwand der Fallen zu reduzieren.
-Des Weiteren entwickelt iotec in dem Forschungsprojekt [DSSARTH](#dssarth) ein verteiltes Sensorsystem auf Basis von Kameras,
-um so den Insektenbefall in Gewächshäusern zu messen.
-
-In beiden Projekten werden unterschiedliche Funkprotokolle, wie diverse Protokolle aus der LPWAN (**Low Power Wide Area Network**) Familie,
+In den beiden Forschungsprojekten 'Nagerfalle' und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt.
+Bei 'Nagerfalle' um den Fallenzustand bei Nagerfallen aus der Ferne zu überwachen und bei DSSARTH um den Schädlingsbefall im Gewächshaus zu melden.
+Um die verteilten Sensoren effizient in die IT-Infrastruktur einbinden zu können werden unterschiedliche Funkprotokolle,
+wie diverse Protokolle aus der LPWAN (**Low Power Wide Area Network**) Familie,
 aber auch **Übertragungsmethoden** wie Bluetooth Low Energie, WLAN-Mesh oder GSM, auf Energieeffizienz, Reichweite und Robustheit untersucht.
 Darüber hinaus werden diese Messgrößen für die verschiedene Netzwerkprotokolle wie, MQTT oder HTTP, und diverse **Verschlüsselungsmethoden** bestimmt.
 
