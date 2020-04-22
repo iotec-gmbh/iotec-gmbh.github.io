@@ -1,0 +1,17 @@
+{% for research in site.researchs %}
+<dl>
+	<dt>Name:</dt>
+	<dd>{{ research.name }}</dd>
+	<dt>Laufzeit:</dt>
+	<dd>{{ research.period }}</dd>
+	<dt>Partner: </dt>
+	<dd>
+		{% for partner in research.partners %}
+		<a href="{{ partner.url }}">{{ partner.name }}</a>
+		{% endfor %}
+	</dd>
+	<dt>Logo Fördermittelgeber:</dt>
+	<dd><img style="max-width: 100%;" src="{{ research.owners }}"></dd>
+</dl>
+<hr>
+{% endfor %}

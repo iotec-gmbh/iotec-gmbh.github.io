@@ -209,6 +209,29 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: right;
 	}
 
+	dl {
+		display: flex;
+		flex-flow: row wrap;
+		border-top-width: 2px;
+		border-bottom-width: 2px;
+	}
+
+	dt {
+		flex-basis: 20%;
+		font-size: 0.9em;
+		font-weight: 600;
+		padding: 0 0.75em 0.75em 0.75em;
+		text-align: left;
+		color: #2f3234;
+	}
+
+	dd {
+		flex-basis: 70%;
+		flex-grow: 1;
+		margin: 0;
+		padding: 2px 4px;
+	}
+
 /* Section/Article */
 
 	section, article {

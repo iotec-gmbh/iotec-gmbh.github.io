@@ -89,3 +89,67 @@ services:
         Deshalb sind wir aktiver Forschungspartner in vielen industriellen Forschungsprojekten.
         Dabei werden wir von einem großen Netzwerk aus verschiedenen Hochschuleinrichtungen
         und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/) und dem [Fraunhofer Institut](https://www.fraunhofer.de/) unterstützt.
+
+researchs:
+  - name: Soil2data
+    partners:
+      - name: Hochschule Osnabrück
+        url: www.hs-osnabrueck.de
+      - name: Anedo Ltd.
+        url: anedo.eu
+      - name: Bodenprobetechnik Nietfeld GmbH
+        url: www.bodenprobetechnik.de
+      - name: LUFA Nord West
+        url: www.lufa-nord-west.de
+      - name: MMM tech support GmbH & Co.KG
+        url: www.mmm-tech.de
+    owners: images/logo_ptble.jpg
+    period: 2016-2019
+  - name: OptiBlend
+    partners:
+      - name: Hochschule Osnabrück
+        url: www.hs-osnabrueck.de
+      - name: Amazonen-Werke
+        url: amazone.de
+    owners: images/logo_ptble.jpg
+    period: 2016-2020
+  - name: DSSARTH
+    partners:
+      - name: Leibniz Universität Hannover
+        url: www.igps.uni-hannover.de
+      - name: Katz Biotech AG
+        url: www.katzbiotech.de
+      - name: ISIP e.V.
+        url: www.isip.de
+    owners: images/logo_ptble.jpg
+    period: 2017-2020
+  - name: IPMaide
+    partners:
+      - name: Partner GmbH
+        url: www.google.de
+    owners: images/logo_ptble.jpg
+    period: 2020-202?
+  - name: S2D2
+    partners:
+      - name: Anedo Ltd.
+        url: www.google.de
+    owners: images/logo_ptble.jpg
+    period: 2020-202?
+  - name: AQM
+    partners:
+      - name: Anedo Ltd.
+        url: www.google.de
+    owners: images/logo_ptble.jpg
+    period: 201?-201?
+  - name: STEP-UP
+    partners:
+      - name: Anedo Ltd.
+        url: www.google.de
+    owners: images/logo_ptble.jpg
+    period: 2019-202?
+  - name: Nagerfalle
+    partners:
+      - name: Anedo Ltd.
+        url: www.google.de
+    owners: images/logo_ptble.jpg
+    period: 201?-201?
