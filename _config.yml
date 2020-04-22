@@ -91,7 +91,7 @@ services:
         und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/) und dem [Fraunhofer Institut](https://www.fraunhofer.de/) unterstützt.
 
 researchs:
-  - name: Soil2data
+  - name: soil2data – Mobiles Bodenproben-Labor und Datenfusion für den ressourceneffizienten Pflanzenbau
     partners:
       - name: Hochschule Osnabrück
         url: www.hs-osnabrueck.de
@@ -104,8 +104,8 @@ researchs:
       - name: MMM tech support GmbH & Co.KG
         url: www.mmm-tech.de
     owners: images/logo_ptble.jpg
-    period: 2016-2019
-  - name: OptiBlend
+    period: 2016-2020
+  - name: OptiBlend – Smartphone basierte optische Verfahren zur Charakterisierung von Einzelkomponenten bei der Herstellung von mineralischen Mischdüngern und Ableitung von Streueigenschaften zur optimierten Streueinstellung bei Zentrifugalstreuern
     partners:
       - name: Hochschule Osnabrück
         url: www.hs-osnabrueck.de
@@ -113,43 +113,35 @@ researchs:
         url: amazone.de
     owners: images/logo_ptble.jpg
     period: 2016-2020
-  - name: DSSARTH
+  - name: DSSARTH – Entwicklung eines automatisierten Entscheidungshilfe Systems für den biologischen und integrierten Pflanzenschutz unter Glas
     partners:
       - name: Leibniz Universität Hannover
-        url: www.igps.uni-hannover.de
+        url: www.uni-hannover.de
       - name: Katz Biotech AG
         url: www.katzbiotech.de
       - name: ISIP e.V.
         url: www.isip.de
     owners: images/logo_ptble.jpg
     period: 2017-2020
-  - name: IPMaide
+  - name: IPMaide – Sensorbasiertes Monitoring und Entscheidungshilfe für den integrierten Pflanzenschutz in Gewächshauskulturen
     partners:
-      - name: Partner GmbH
-        url: www.google.de
+      - name: Leibniz Universität Hannover
+        url: www.uni-hannover.de
+      - name: Julius Kühn-Institut Institut
+        url: www.julius-kuehn.de
+      - name: Geoinformationsdienst GmbH
+        url: www.geoinformationsdienst.de
     owners: images/logo_ptble.jpg
-    period: 2020-202?
-  - name: S2D2
+    period: 2019-2022
+  - name: STEP-UP – Smarte Technologien für die normgerechte Prozessführung und Werker-Unterstützung in klebtechnischen Fertigungsprozessen
     partners:
-      - name: Anedo Ltd.
-        url: www.google.de
-    owners: images/logo_ptble.jpg
-    period: 2020-202?
-  - name: AQM
-    partners:
-      - name: Anedo Ltd.
-        url: www.google.de
-    owners: images/logo_ptble.jpg
-    period: 201?-201?
-  - name: STEP-UP
-    partners:
-      - name: Anedo Ltd.
-        url: www.google.de
-    owners: images/logo_ptble.jpg
+      - name: Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung
+        url: www.ifam.fraunhofer.de
+      - name: Bitnamic GmbH
+        url: www.bitnamic.net
+      - name: tec-n GmbH
+        url: www.tec-n.expert
+      - name: OFFIS e.V.
+        url: www.offis.de
+    owners: images/BMBF_logo_deutsch.jpg
     period: 2019-202?
-  - name: Nagerfalle
-    partners:
-      - name: Anedo Ltd.
-        url: www.google.de
-    owners: images/logo_ptble.jpg
-    period: 201?-201?
