@@ -25,7 +25,7 @@ So hat sich das Forschungsprojekt [soil2data](#soil2data) zum Ziel genommen,
 das zeitaufwendige Standardverfahren im Bereich der Bodenbeprobung auf landwirtschaftlichen Flächen zu verbessern.
 Dazu wurde ein autonomes System entwickelt, welches Bodenproben vor Ort auf die Nährstoffzusammensetzung analysiert,
 um so dem Landwirt zeitnah eine Entscheidungsgrundlage zur Düngung geben zu können.
-Die Herausforderung für iotec besteht in diesem Projekt darin, die verschiedenenen Teilsysteme miteinander zu verknüpfen,
+Die Herausforderung für iotec besteht in diesem Projekt darin, die verschiedenen Teilsysteme miteinander zu verknüpfen,
 so dass eine **automatisierte Prozesskette** möglich wird.
 Das Nachfolgeprojekt 'soil2data2' beinhaltet die Weiterentwicklung zu einem seriennahem Produkt.
 
