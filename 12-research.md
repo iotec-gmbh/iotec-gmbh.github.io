@@ -55,7 +55,7 @@ Und wie wird eine möglichst **einfache Inbetriebnahme** geschaffen?
 
 In den beiden Forschungsprojekten *Nagerfalle* und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt, um Schädlingsbefall zu überwachen.
 Um die verteilten Sensoren effizient in die IT-Infrastruktur einbinden zu können werden unterschiedliche Funkprotokolle,
-wie diverse Protokolle aus der LPWAN (**Low Power Wide Area Network**) Familie,
+wie diverse Protokolle aus der **LPWAN** (Low Power Wide Area Network) Familie,
 aber auch **Übertragungsmethoden** wie Bluetooth Low Energie, WLAN-Mesh oder GSM, auf Energieeffizienz, Reichweite und Robustheit untersucht.
 Darüber hinaus werden diese Messgrößen für die verschiedene Netzwerkprotokolle, wie MQTT oder HTTP, und diverse **Verschlüsselungsmethoden** bestimmt.
 
