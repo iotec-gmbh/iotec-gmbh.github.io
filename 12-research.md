@@ -63,7 +63,7 @@ Zusätzlich wählt iotec die Sensoren und elektrischen Systeme so aus, dass eine
 Mittels unterschiedlicher Gehäuse-Ausführungen und Coatingverfahren wird in diesem Zusammenhang auch versucht die Robustheit noch weiter zu steigern.
 Ziel ist es dabei die Sensorsysteme auch im Außenbereich, bei unterschiedlichen Wettereinflüssen und möglichst autark über die Dauer eines Jahres zu betreiben.
 
-Parallel dazu nutzt iotec das Forschungsprojekt 'Nagerfalle' ebenfalls, um **einfache und sichere Protokolle zur Inbetriebnahme** dieser verteilten Sensorsysteme zu entwickeln.
+iotec nutzt das Forschungsprojekt 'Nagerfalle' ebenfalls, um **einfache und sichere Protokolle zur Inbetriebnahme** dieser verteilten Sensorsysteme zu entwickeln.
 Ziel ist es, die möglichen Fehlerquellen so stark zu reduzieren, dass auch ungelernte Kräfte diese Systeme in Betrieb nehmen
 und gleichzeitig die Richtigkeit und Integrität der Daten überprüfen können.
 
