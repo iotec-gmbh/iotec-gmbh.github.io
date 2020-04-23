@@ -27,7 +27,7 @@ Dazu wurde ein autonomes System entwickelt, welches Bodenproben vor Ort auf die 
 um so dem Landwirt zeitnah eine Entscheidungsgrundlage zur Düngung geben zu können.
 Die Herausforderung für iotec besteht in diesem Projekt darin, die verschiedenen Teilsysteme miteinander zu verknüpfen,
 so dass eine **automatisierte Prozesskette** möglich wird.
-Das Nachfolgeprojekt 'soil2data2' beinhaltet die Weiterentwicklung zu einem seriennahen Produkt.
+Das Nachfolgeprojekt *soil2data2* beinhaltet die Weiterentwicklung zu einem seriennahen Produkt.
 
 In einem anderen Beispiel stehen Gartenbaubetriebe vor der Herausforderung,
 den Befall Ihrer Pflanzen mit Schädlingen möglichst zeitnah und genau zu bestimmen,
@@ -42,7 +42,7 @@ Die Weiterentwicklung dieses Systems erfolgt im Nachfolgeprojekt [IPMaide](#ipma
 
 Auch beim Verkleben von Kohlefaserverbundstoffen gibt es etablierte Prozesse die verbessert werden können.
 Die von iotec im Forschungsprojekt [STEP-UP](#stepup) mitentwickelte geführte manuelle Verklebung,
-zeigt dem Mitarbeiter die aktuellen Arbeitsschritte und Messwerte vom zu klebenden Objekt visuell in einem _Virtual Reality Headset_ an.
+zeigt dem Mitarbeiter die aktuellen Arbeitsschritte und Messwerte vom zu klebenden Objekt visuell in einem *Virtual Reality Headset* an.
 Dieses System kann mit relativ einfachen Mitteln in die vorhandene Fertigung implementiert werden und dadurch die **Qualität** der Klebungen steigern.
 
 ## Verteilte Sensoren in der Realität
@@ -53,7 +53,7 @@ Welche Technologien sollte ich einsetzen, wenn ich nur sehr **limitierte Energie
 Wie müssen Sensorsysteme aufgebaut sein, damit sie auch unter **schwierigen Umweltbedingungen** weiter zuverlässig funktionieren?
 Und wie wird eine möglichst **einfache Inbetriebnahme** geschaffen?
 
-In den beiden Forschungsprojekten 'Nagerfalle' und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt, um Schädlingsbefall zu überwachen.
+In den beiden Forschungsprojekten *Nagerfalle* und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt, um Schädlingsbefall zu überwachen.
 Um die verteilten Sensoren effizient in die IT-Infrastruktur einbinden zu können werden unterschiedliche Funkprotokolle,
 wie diverse Protokolle aus der LPWAN (**Low Power Wide Area Network**) Familie,
 aber auch **Übertragungsmethoden** wie Bluetooth Low Energie, WLAN-Mesh oder GSM, auf Energieeffizienz, Reichweite und Robustheit untersucht.
@@ -83,9 +83,7 @@ Die Anzahl an Insekten wird anschließend über eine definierte Schnittstelle ge
 Andere Forschungsprojekte an denen sich iotec beteiligt, beschäftigen sich mit ähnlichen Fragen unter der Zuhilfenahme **verschiedenster Sensorarten**:
 Das Projekt [soil2data](#soil2data) entwickelt ein mobiles Feldlabor, das automatisch Daten über die Bodenbeschafftenheit landwirtschaftlicher Flächen bereitstellt.
 Dazu werden die im Feld genommenen Bodenproben automatisiert analysiert und die Nährstoffkonzentrationen des Bodens **strukturiert aufbereitet**.
-Die Projekte [OptiBlend](#optiblend) (Erkennung und Quantifizierung von Düngersorten auf Fotos)
-und 'AQM' (Erkennung von Gefahrensituationen am Arbeitsplatz durch eine Vielzahl an unterschiedlichen Sensoren)
-beschäftigen sich ebenfalls mit dieser Herausforderung.
+Die Projekte [OptiBlend](#optiblend) und *AQM* beschäftigen sich ebenfalls mit dieser Herausforderung.
 
 ## Forschungsprojekte
 
