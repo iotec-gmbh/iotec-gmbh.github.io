@@ -33,7 +33,7 @@ In einem anderen Beispiel stehen Gartenbaubetriebe vor der Herausforderung,
 den Befall Ihrer Pflanzen mit Schädlingen möglichst zeitnah und genau zu bestimmen,
 um die angemessene Bekämpfung genau berechnen zu können.
 Dazu werden Schädlingsfallen in unregelmäßigen Intervallen in hohem manuellen Aufwand ausgetauscht und ausgewertet.
-Um hier zum einen den Arbeitsaufwand zu reduzieren und zum Anderen die **Datengrundlage** zu verbessern,
+Um hier zum einen den Arbeitsaufwand zu reduzieren und zum anderen die **Datengrundlage** zu verbessern,
 hat iotec im Forschungsprojekt [DSSARTH](#dssarth) den Prototyp einer autonomen Klebefalle entwickelt.
 Diese erfassen den aktuellen Befall zeitnah und werten die Anzahl und Art der Schädlinge automatisch aus.
 Die Ergebnisse werden an eine Plattform übertragen, die auf der Grundlage des festgestellten Schädlingsbefalls
