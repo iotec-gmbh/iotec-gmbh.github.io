@@ -77,7 +77,7 @@ Information zu extrahieren und strukturiert an den weiteren Prozess übergeben z
 
 Die im Forschungsprojekt [DSSARTH](#dssarth) verwendeten Kameras erstellen Aufnahmen von Schädlingen auf Klebetafeln.
 Hierbei ist die **kritische Information**, wie viele Schädlingsinsekten auf der Tafel vorhanden sind.
-iotec setzt sich in diesem Forschungsprojekt mit der Frage auseinander, wie man die Rohdaten in Form des Fotos auswertet, um die Anzahl von Schädlingen bestimmen zu können.
+iotec setzt sich in diesem Forschungsprojekt mit der Frage auseinander, wie die Rohdaten in Form des Fotos ausgewertet werden können, um die Anzahl von Schädlingen bestimmen zu können.
 In diesem komplexen Fall werden dazu Methoden der **Bildverarbeitung** und des **maschinellen Lernens** benutzt.
 Die Anzahl an Insekten wird anschließend über eine definierte Schnittstelle geordnet an ein Entscheidungshilfesystem downstream übergeben.
 
