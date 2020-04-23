@@ -27,7 +27,7 @@ Dazu wurde ein autonomes System entwickelt, welches Bodenproben vor Ort auf die 
 um so dem Landwirt zeitnah eine Entscheidungsgrundlage zur Düngung geben zu können.
 Die Herausforderung für iotec besteht in diesem Projekt darin, die verschiedenen Teilsysteme miteinander zu verknüpfen,
 so dass eine **automatisierte Prozesskette** möglich wird.
-Das Nachfolgeprojekt 'soil2data2' beinhaltet die Weiterentwicklung zu einem seriennahem Produkt.
+Das Nachfolgeprojekt 'soil2data2' beinhaltet die Weiterentwicklung zu einem seriennahen Produkt.
 
 In einem andern Beispiel stehen Gartenbaubetriebe vor der Herausforderung,
 den Befall Ihrer Pflanzen mit Schädlingen möglichst zeitnah und genau bestimmen,
