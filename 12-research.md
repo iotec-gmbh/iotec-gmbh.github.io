@@ -30,7 +30,7 @@ so dass eine **automatisierte Prozesskette** möglich wird.
 Das Nachfolgeprojekt 'soil2data2' beinhaltet die Weiterentwicklung zu einem seriennahen Produkt.
 
 In einem anderen Beispiel stehen Gartenbaubetriebe vor der Herausforderung,
-den Befall Ihrer Pflanzen mit Schädlingen möglichst zeitnah und genau bestimmen,
+den Befall Ihrer Pflanzen mit Schädlingen möglichst zeitnah und genau zu bestimmen,
 um die angemessene Bekämpfung genau berechnen zu können.
 Dazu werden Schädlingsfallen in unregelmäßigen Intervallen in hohem manuellen Aufwand ausgetauscht und ausgewertet.
 Um hier zum einen den Arbeitsaufwand zu reduzieren und zum Anderen die **Datengrundlage** zu verbessern,
