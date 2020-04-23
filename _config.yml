@@ -65,17 +65,6 @@ references:
 # *title*: Title of the service
 # *description*: Description of the service. Intepreted as Markdown.
 services:
-  - image: images/consulting.jpg
-    title: Beratung
-    description: |
-        Sie fragen sich welche Messmöglichkeiten es für Ihre Prozesse gibt
-        und wie man diese am besten in Ihre eigene Infrastruktur integriert?
-        Wir beraten Sie gerne!
-
-        Nachdem wir gemeinsam Ihre Situation analysiert haben,
-        erarbeiten wir ein Konzept mit Ihnen.
-        Durch unser interdisziplinäres Team und unser Netzwerk in Industrie und Forschung,
-        haben sie dabei Zugriff auf eine breite Wissensbasis.
   - image: images/entwicklung.png
     title: Entwicklung
     description: |
