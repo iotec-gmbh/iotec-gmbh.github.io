@@ -126,17 +126,6 @@ researchs:
         url: https://www.isip.de
     owners: images/logo_ptble.jpg
     period: 2017-2020
-  - name: IPMaide – Sensorbasiertes Monitoring und Entscheidungshilfe für den integrierten Pflanzenschutz in Gewächshauskulturen
-    id: ipmaide
-    partners:
-      - name: Leibniz Universität Hannover
-        url: https://www.uni-hannover.de
-      - name: Julius Kühn-Institut Institut
-        url: https://www.julius-kuehn.de
-      - name: Geoinformationsdienst GmbH
-        url: https://www.geoinformationsdienst.de
-    owners: images/logo_ptble.jpg
-    period: 2019-2022
   - name: STEP-UP – Smarte Technologien für die normgerechte Prozessführung und Werker-Unterstützung in klebtechnischen Fertigungsprozessen
     id: stepup
     partners:
@@ -150,3 +139,14 @@ researchs:
         url: https://www.offis.de
     owners: images/BMBF_logo_deutsch.jpg
     period: 2019-2021
+  - name: IPMaide – Sensorbasiertes Monitoring und Entscheidungshilfe für den integrierten Pflanzenschutz in Gewächshauskulturen
+    id: ipmaide
+    partners:
+      - name: Leibniz Universität Hannover
+        url: https://www.uni-hannover.de
+      - name: Julius Kühn-Institut Institut
+        url: https://www.julius-kuehn.de
+      - name: Geoinformationsdienst GmbH
+        url: https://www.geoinformationsdienst.de
+    owners: images/logo_ptble.jpg
+    period: 2019-2022
