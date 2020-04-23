@@ -29,7 +29,7 @@ Die Herausforderung für iotec besteht in diesem Projekt darin, die verschiedene
 so dass eine **automatisierte Prozesskette** möglich wird.
 Das Nachfolgeprojekt 'soil2data2' beinhaltet die Weiterentwicklung zu einem seriennahen Produkt.
 
-In einem andern Beispiel stehen Gartenbaubetriebe vor der Herausforderung,
+In einem anderen Beispiel stehen Gartenbaubetriebe vor der Herausforderung,
 den Befall Ihrer Pflanzen mit Schädlingen möglichst zeitnah und genau bestimmen,
 um die angemessene Bekämpfung genau berechnen zu können.
 Dazu werden Schädlingsfallen in unregelmäßigen Intervallen in hohem manuellen Aufwand ausgetauscht und ausgewertet.
