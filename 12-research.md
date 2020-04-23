@@ -53,7 +53,7 @@ Welche Technologien sollte ich einsetzen, wenn ich nur sehr **limitierte Energie
 Wie müssen Sensorsysteme aufgebaut sein, damit sie auch unter **schwierigen Umweltbedingungen** weiter zuverlässig funktionieren?
 Und wie wird eine möglichst **einfache Inbetriebnahme** geschaffen?
 
-In den beiden Forschungsprojekten 'Nagerfalle' und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt.
+In den beiden Forschungsprojekten 'Nagerfalle' und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt, um Schädlingsbefall zu überwachen.
 Bei 'Nagerfalle' um den Fallenzustand bei Nagerfallen aus der Ferne zu überwachen und bei DSSARTH um den Schädlingsbefall im Gewächshaus zu melden.
 Um die verteilten Sensoren effizient in die IT-Infrastruktur einbinden zu können werden unterschiedliche Funkprotokolle,
 wie diverse Protokolle aus der LPWAN (**Low Power Wide Area Network**) Familie,
