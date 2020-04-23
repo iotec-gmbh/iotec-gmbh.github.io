@@ -43,16 +43,20 @@ about:
 # To add new references, just copy the image to the images and add a new entry
 # in the list below.
 references:
-  - image: images/boge.svg
-    url: https://www.boge-rubber-plastics.com
   - image: images/bayer.svg
     url: https://www.bayer.de
-  - image: images/lemken.svg
-    url: https://lemken.com
+  - image: images/boge.svg
+    url: https://www.boge-rubber-plastics.com
+  - image: images/huebner.png
+    url: https://www.hubner-group.com/
   - image: images/inoex.svg
     url: https://www.inoex.de
   - image: images/hs-osnabrueck.svg
     url: https://www.hs-osnabrueck.de
+  - image: images/luh.svg
+    url: https://www.uni-hannover.de
+  - image: images/lemken.svg
+    url: https://lemken.com
   - image: images/nietfeld.jpg
     url: http://www.bodenprobetechnik.de
 
