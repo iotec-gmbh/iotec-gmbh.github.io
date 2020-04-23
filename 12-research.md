@@ -18,7 +18,7 @@ Im Folgenden möchten wir Ihnen einige Themen unserer Forschungsprojekte detaill
 Neue Technologien legen in etablierten Prozessen Optimierungspotentiale offen.
 Manuelle Tätigkeiten und Expertenwissen können heute auf vielfältige Art automatisiert werden
 und so Reproduzierbarkeit und Qualität verbessern.
-In unseren Forschungsprojekten dreht es sich daher oft um die Frage wo man das **Potential von Sensorik** nutzen kann,
+In unseren Forschungsprojekten dreht es sich daher oft um die Frage wo das **Potential von Sensorik** genutzt werden kann,
 um bestehende Prozesse zu verkürzen oder zu automatisieren.
 
 So hat sich das Forschungsprojekt [soil2data](#soil2data) zum Ziel genommen,
