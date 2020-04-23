@@ -64,7 +64,7 @@ Mittels unterschiedlicher Gehäuse-Ausführungen und Coatingverfahren wird in di
 Ziel ist es dabei die Sensorsysteme auch im Außenbereich, bei unterschiedlichen Wettereinflüssen und möglichst autark über die Dauer eines Jahres zu betreiben.
 
 Parallel dazu nutzt iotec das Forschungsprojekt 'Nagerfalle' ebenfalls, um **einfache und sichere Protokolle zur Inbetriebnahme** dieser verteilten Sensorsysteme zu entwickeln.
-Ziel ist es die möglichen Fehlerquellen so stark zu reduzieren, dass auch ungelernte Kräfte diese Systeme in Betrieb nehmen
+Ziel ist es, die möglichen Fehlerquellen so stark zu reduzieren, dass auch ungelernte Kräfte diese Systeme in Betrieb nehmen
 und gleichzeitig die Richtigkeit und Integrität der Daten überprüfen können.
 
 ## Sensordaten benutzbar machen
