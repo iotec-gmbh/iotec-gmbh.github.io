@@ -78,7 +78,7 @@ Die im Forschungsprojekt [DSSARTH](#dssarth) verwendeten Kameras erstellen Aufna
 Hierbei ist die **kritische Information**, wie viele Schädlingsinsekten auf der Tafel vorhanden sind.
 iotec setzt sich in diesem Forschungsprojekt mit der Frage auseinander, wie die Rohdaten in Form des Fotos ausgewertet werden können, um die Anzahl von Schädlingen bestimmen zu können.
 In diesem komplexen Fall werden dazu Methoden der **Bildverarbeitung** und des **maschinellen Lernens** benutzt.
-Die Anzahl an Insekten wird anschließend über eine definierte Schnittstelle geordnet an ein Entscheidungshilfesystem downstream übergeben.
+Die Anzahl an Insekten wird anschließend über eine definierte Schnittstelle geordnet an ein Entscheidungshilfesystem *downstream* übergeben.
 
 Andere Forschungsprojekte an denen sich iotec beteiligt, beschäftigen sich mit ähnlichen Fragen unter der Zuhilfenahme **verschiedenster Sensorarten**:
 Das Projekt [soil2data](#soil2data) entwickelt ein mobiles Feldlabor, das automatisch Daten über die Bodenbeschafftenheit landwirtschaftlicher Flächen bereitstellt.
