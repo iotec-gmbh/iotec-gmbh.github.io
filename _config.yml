@@ -82,3 +82,64 @@ services:
         Deshalb sind wir aktiver Forschungspartner in vielen industriellen Forschungsprojekten.
         Dabei werden wir von einem großen Netzwerk aus verschiedenen Hochschuleinrichtungen
         und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/) und dem [Fraunhofer Institut](https://www.fraunhofer.de/) unterstützt.
+
+researchs:
+  - name: soil2data – Mobiles Bodenproben-Labor und Datenfusion für den ressourceneffizienten Pflanzenbau
+    id: soil2data
+    partners:
+      - name: Hochschule Osnabrück
+        url: https://www.hs-osnabrueck.de
+      - name: Anedo Ltd.
+        url: https://anedo.eu
+      - name: Bodenprobetechnik Nietfeld GmbH
+        url: http://www.bodenprobetechnik.de
+      - name: LUFA Nord West
+        url: https://www.lufa-nord-west.de
+      - name: MMM tech support GmbH & Co.KG
+        url: https://www.mmm-tech.de
+    owners: images/logo_ptble.jpg
+    period: 2016-2020
+  - name: OptiBlend – Smartphone basierte optische Verfahren zur Charakterisierung von Einzelkomponenten bei der Herstellung von mineralischen Mischdüngern und Ableitung von Streueigenschaften zur optimierten Streueinstellung bei Zentrifugalstreuern
+    id: optiblend
+    partners:
+      - name: Hochschule Osnabrück
+        url: https://www.hs-osnabrueck.de
+      - name: Amazonen-Werke
+        url: https://amazone.de
+    owners: images/logo_ptble.jpg
+    period: 2016-2020
+  - name: DSSARTH – Entwicklung eines automatisierten Entscheidungshilfe Systems für den biologischen und integrierten Pflanzenschutz unter Glas
+    id: dssarth
+    partners:
+      - name: Leibniz Universität Hannover
+        url: https://www.uni-hannover.de
+      - name: Katz Biotech AG
+        url: https://www.katzbiotech.de
+      - name: ISIP e.V.
+        url: https://www.isip.de
+    owners: images/logo_ptble.jpg
+    period: 2017-2020
+  - name: STEP-UP – Smarte Technologien für die normgerechte Prozessführung und Werker-Unterstützung in klebtechnischen Fertigungsprozessen
+    id: stepup
+    partners:
+      - name: Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung
+        url: https://www.ifam.fraunhofer.de
+      - name: Bitnamic GmbH
+        url: https://www.bitnamic.net
+      - name: tec-n GmbH
+        url: https://www.n-tec.de
+      - name: OFFIS e.V.
+        url: https://www.offis.de
+    owners: images/BMBF_logo_deutsch.jpg
+    period: 2019-2021
+  - name: IPMaide – Sensorbasiertes Monitoring und Entscheidungshilfe für den integrierten Pflanzenschutz in Gewächshauskulturen
+    id: ipmaide
+    partners:
+      - name: Leibniz Universität Hannover
+        url: https://www.uni-hannover.de
+      - name: Julius Kühn-Institut Institut
+        url: https://www.julius-kuehn.de
+      - name: Geoinformationsdienst GmbH
+        url: https://www.geoinformationsdienst.de
+    owners: images/logo_ptble.jpg
+    period: 2019-2022
