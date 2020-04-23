@@ -58,7 +58,7 @@ Bei 'Nagerfalle' um den Fallenzustand bei Nagerfallen aus der Ferne zu überwach
 Um die verteilten Sensoren effizient in die IT-Infrastruktur einbinden zu können werden unterschiedliche Funkprotokolle,
 wie diverse Protokolle aus der LPWAN (**Low Power Wide Area Network**) Familie,
 aber auch **Übertragungsmethoden** wie Bluetooth Low Energie, WLAN-Mesh oder GSM, auf Energieeffizienz, Reichweite und Robustheit untersucht.
-Darüber hinaus werden diese Messgrößen für die verschiedene Netzwerkprotokolle wie, MQTT oder HTTP, und diverse **Verschlüsselungsmethoden** bestimmt.
+Darüber hinaus werden diese Messgrößen für die verschiedene Netzwerkprotokolle, wie MQTT oder HTTP, und diverse **Verschlüsselungsmethoden** bestimmt.
 
 Zusätzlich wählt iotec die Sensoren und elektrischen Systeme so aus, dass eine möglichst hohe **physische Robustheit** erreicht wird.
 Mittels unterschiedlicher Gehäuse-Ausführungen und Coatingverfahren wird in diesem Zusammenhang auch versucht die Robustheit noch weiter zu steigern.
