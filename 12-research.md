@@ -49,7 +49,7 @@ Dieses System kann mit relativ einfachen Mitteln in die vorhandene Fertigung imp
 
 Ein weiteres Thema das iotec in seinen Forschungsprojekten bearbeitet ist die Aufnahme und Übertragung von Sensordaten.
 Wie verhalten sich die **unterschiedlichen Technologien in der Praxis**?
-Welche Technologien sollte ich einsetzen, wenn ich nur sehr **limitierte Energie** zu Verfügung habe?
+Welche Technologien sollte ich einsetzen, wenn ich nur sehr **limitierte Energie** zur Verfügung habe?
 Wie müssen Sensorsysteme aufgebaut sein, damit sie auch unter **schwierigen Umweltbedingungen** weiter zuverlässig funktionieren?
 Und wie wird eine möglichst **einfache Inbetriebnahme** geschaffen?
 
