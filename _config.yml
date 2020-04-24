@@ -36,7 +36,7 @@ about:
     Von Temperatursensoren bis zur Integration von Bildverarbeitungssystemen - wir arbeiten immer an der besten digitalen Lösung für Sie.
 
     Mehr Automatisierung, mehr Digitalisierung, mehr Effizienz für Ihr Unternehmen. Das leistet iotec für Sie.
-    In kurzen, transparenten Entwicklungsschritten, entwickeln wir für Sie maßgeschneiderte Sensorlösungen.
+    In kurzen, transparenten Entwicklungsschritten entwickeln wir für Sie maßgeschneiderte Sensorlösungen.
 
 # References
 # To add new references, just copy the image to the images and add a new entry
@@ -67,7 +67,7 @@ services:
   - image: images/entwicklung.png
     title: Entwicklung
     description: |
-        Wir unterstützten Sie gerne bei der Lösung Ihres Problems.
+        Wir unterstützen Sie gerne bei der Lösung Ihres Problems.
         Dazu analysieren wir gemeinsam mit Ihnen die aktuelle Situation und erarbeiten spezifische Lösungsansätze auf Basis von Sensoren.
         Diese stellen wir Ihnen in einem Konzept zusammen.
         Aus diesem Konzept können wir die maßgeschneiderte Sensorlösung für Ihre Herausforderung entwickeln.
@@ -75,7 +75,7 @@ services:
         Wir setzen in unserem Projektmanagement auf agile Arbeitsweisen.
         Dadurch sind Sie stets nah am Entwicklungsprozess, sodass wir gemeinsam flexibel auf Änderungen reagieren können.
 
-        Erfahren Sie mehr zu [unserer technischen Expertise und Entwicklungsarbeit]( https://new.iotec-gmbh.de/exemplarische-entwicklung.html).
+        Erfahren Sie mehr zu [unserer technischen Expertise und Entwicklungsarbeit](11-entwicklung).
 
   - image: images/forschung.png
     title: Forschung
