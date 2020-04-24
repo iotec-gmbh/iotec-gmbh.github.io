@@ -11,6 +11,25 @@ Dies bietet auch bei Projekten mit neuester Technologie und hohem Risiko eine gr
 
 Diese Philosophie spiegelt sich auch in unserer **Arbeitsweise** und **technischen Expertise** wieder.
 
+## Konzepterstellung
+
+Zum Einstieg in ein Entwicklungsprojekt klären wir in einem kurzen Vorgespräch,
+ob wir der richtige Ansprechpartner für die Problemstellung des Kunden sind und ob unsere Arbeitsweise zu dem Unternehmen des Kunden passt.
+Nach einem positiven Vorgespräch erstellen wir ein Angebot über die Erarbeitung eines Konzepts.
+Die Ausarbeitung des Konzepts startet mit einem Expertengespräch, in dem unsere Spezialisten mit dem Kunden die technische Fragestellung für das Projekt erarbeiten.
+Unser Fokus liegt dabei darauf zu ergründen was die schnellste und einfachste Lösungmöglichkeit ist –
+das **Minimal Viable Product** das auf Kundenseite Mehrwert generiert.
+Hierbei stehen Fragen im Mittelpunkt wie:
+
+- Wo kann Wert entstehen?
+- Welche Funktionalitäten sind besonders wichtig?
+- In welchem Zeitrahmen wird geplant?
+
+Auf Basis dieser Informationen wird von unserem interdisziplinären Team ein Konzept erarbeitet, welches Lösungsansätze für die Fragestellung des Kunden enthält.
+Anschließend stellen wir dieses Konzept dem Kunden in einer Präsentation vor.
+Aus diesem Gespräch leiten wir dann gemeinsam mit dem Kunden die Rahmenbedingungen für eine weitere Zusammenarbeit ab.
+Dies könnte dann z.B. der Start einer Machbarkeitsstudie oder einer Prototypenentwicklung sein.
+
 ## Arbeitsweise
 
 Gerade in Projekten im Bereich der Forschung und Entwicklung gibt es viele Unwägbarkeiten.
@@ -23,7 +42,8 @@ Um zeitliche Unsicherheiten und Planungsrisiken gemeinsam mit unseren Kunden zu 
 verfolgt unser Team bei der iotec GmbH Ansätze des **evolutionären Prototyping**.
 Dabei erweitern wir nach und nach in kurzen Entwicklungszyklen das Produkt.
 Dies befähigt uns, sehr schnell erste Funktionsprototypen zu erstellen und diese dann iterativ weiter zu entwickeln.
-So behalten unsere Kunden während des Prozesses die volle Kontrolle über ihr Projekt und haben außerdem zu jeder Zeit ein präsentables Ergebnis.
+Wir können dem Kunden dabei durch unsere Projektmanagement-Tools und Entwicklungsplattform volle Transparenz über die Ergebnisse und Zwischenstände bieten.
+Der Kunde behält so die volle Kontrolle, um bei Änderungswünschen direkt Einfluss auf den Projektablauf nehmen zu können.
 
 ## Fachliche Expertise
 
