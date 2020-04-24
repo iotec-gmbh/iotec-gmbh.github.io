@@ -30,8 +30,7 @@ exclude:
 
 about:
   description: |
-    iotec ist Ihr Spezialist für individuelle Sensorlösungen. Diese Lösungen befähigen Sie zu belastbaren Analysen Ihrer Prozesse.
-    iotec steht Ihnen als starker Partner bei der Transition zu einem digitaleren Unternehmen zur Seite.
+    iotec ist Ihr Spezialist für individuelle Sensorlösungen. In diesem Bereich bieten wir Ihnen innovative, schnell umgesetzte Prototypen (z.B. MVP) die Sie zu belastbaren Analysen Ihrer Prozesse befähigen.
     Wir beraten Sie gern und finden mit Ihnen zusammen eine passgenaue Lösung für Ihre Problemstellung.
     Mithilfe unseres Netzwerks aus Industriepartnern und Forschungseinrichtungen unterstützen wir Sie von Machbarkeiten, über Prototypen bis zur Serie.
     Von Temperatursensoren bis zur Integration von Bildverarbeitungssystemen - wir arbeiten immer an der besten digitalen Lösung für Sie.
@@ -68,21 +67,24 @@ services:
   - image: images/entwicklung.png
     title: Entwicklung
     description: |
-        Ob die Elektronik für ihre Spezialanwendung oder das komplette Sensorsystem –
-        wir entwickeln eine für Sie maßgeschneiderte Lösung.
+        Wir unterstützten Sie gerne bei der Lösung Ihres Problems.
+        Dazu analysieren wir gemeinsam mit Ihnen die aktuelle Situation und erarbeiten spezifische Lösungsansätze auf Basis von Sensoren.
+        Diese stellen wir Ihnen in einem Konzept zusammen.
+        Aus diesem Konzept können wir die maßgeschneiderte Sensorlösung für Ihre Herausforderung entwickeln.
+        Von dem Entwurf und der Umsetzung der Elektronik, über die Softwareentwicklung, bis zur Auswertung der Daten können Sie sich auf uns verlassen.
+        Wir setzen in unserem Projektmanagement auf agile Arbeitsweisen.
+        Dadurch sind Sie stets nah am Entwicklungsprozess, sodass wir gemeinsam flexibel auf Änderungen reagieren können.
 
-        Sie profitieren dabei von unserem jungen und innovativen Team mit Expertise im Software- und im Hardwarebereich.
+        Erfahren Sie mehr zu [unserer technischen Expertise und Entwicklungsarbeit]( https://new.iotec-gmbh.de/exemplarische-entwicklung.html).
 
-        Durch unser Projektmanagement sind Sie immer nah am Entwicklungsprozess und behalten so den vollen Überblick.
-        Gemeinsam können wir schnell auf äußere Einflüsse oder neue Entwicklungen reagieren.
   - image: images/forschung.png
     title: Forschung
     description: |
         Wir haben den Anspruch immer die neuesten Erkenntnisse und Technologien in unsere Arbeit zu integrieren.
         Deshalb sind wir aktiver Forschungspartner in vielen industriellen Forschungsprojekten.
-        Dabei werden wir von einem großen Netzwerk aus verschiedenen Hochschuleinrichtungen
-        und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/) und dem [Fraunhofer Institut](https://www.fraunhofer.de/) unterstützt.
-
+        In diesen Projekten arbeiten wir mit verschiedenen Hochschuleinrichtungen
+        und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/)
+        und dem [Fraunhofer Institut](https://www.fraunhofer.de/) zusammen.
 researchs:
   - name: soil2data – Mobiles Bodenproben-Labor und Datenfusion für den ressourceneffizienten Pflanzenbau
     id: soil2data
