@@ -10,4 +10,4 @@ gh-deploy:
     - echo "${GH_DEPLOY_KEY}" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
     - ssh-keyscan github.com >> ~/.ssh/known_hosts
-    - git push --force git@github.com:iotec-gmbh/new.iotec-gmbh.github.io ${CI_COMMIT_SHA}:master
+    - git push --force git@github.com:iotec-gmbh/iotec-gmbh.github.io ${CI_COMMIT_SHA}:master
