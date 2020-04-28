@@ -30,8 +30,8 @@ exclude:
 
 about:
   description: |
-    iotec ist Ihr Spezialist für individuelle Sensorlösungen. In diesem Bereich bieten wir Ihnen innovative, schnell umgesetzte Prototypen (z.B. MVP) die Sie zu belastbaren Analysen Ihrer Prozesse befähigen.
-    Wir beraten Sie gern und finden mit Ihnen zusammen eine passgenaue Lösung für Ihre Problemstellung.
+    iotec ist Ihr Spezialist für individuelle Sensorlösungen. In diesem Bereich bieten wir Ihnen innovative und schnell umgesetzte Prototypen (z.B. MVP), die Sie zu belastbaren Analysen Ihrer Prozesse befähigen.
+    Wir beraten Sie gerne und finden mit Ihnen zusammen eine passgenaue Lösung für Ihre Problemstellung.
     Mithilfe unseres Netzwerks aus Industriepartnern und Forschungseinrichtungen unterstützen wir Sie von Machbarkeiten, über Prototypen bis zur Serie.
     Von Temperatursensoren bis zur Integration von Bildverarbeitungssystemen - wir arbeiten immer an der besten digitalen Lösung für Sie.
 
@@ -84,8 +84,8 @@ services:
         Wir haben den Anspruch immer die neuesten Erkenntnisse und Technologien in unsere Arbeit zu integrieren.
         Deshalb sind wir aktiver Forschungspartner in vielen [industriellen Forschungsprojekten](12-research).
         In diesen Projekten arbeiten wir mit verschiedenen Hochschuleinrichtungen
-        und Forschungsinstituten wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/)
-        und dem [Fraunhofer Institut](https://www.fraunhofer.de/) zusammen.
+        und Forschungsinstituten, wie beispielsweise der [Hochschule Osnabrück](https://www.hs-osnabrueck.de/)
+        und dem [Fraunhofer Institut](https://www.fraunhofer.de/), zusammen.
 researchs:
   - name: soil2data – Mobiles Bodenproben-Labor und Datenfusion für den ressourceneffizienten Pflanzenbau
     id: soil2data
