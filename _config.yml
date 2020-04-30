@@ -30,9 +30,10 @@ exclude:
 
 about:
   description: |
-    iotec ist Ihr Spezialist für individuelle Sensorlösungen. In diesem Bereich bieten wir Ihnen innovative und schnell umgesetzte Prototypen (z.B. MVP), die Sie zu belastbaren Analysen Ihrer Prozesse befähigen.
+    iotec ist Ihr Spezialist für individuelle Sensorlösungen. In diesem Bereich bieten wir Ihnen innovative und schnell umgesetzte Prototypen (z.B. Minimal Viable Product),
+    die Sie zu belastbaren Analysen Ihrer Prozesse befähigen.
     Wir beraten Sie gerne und finden mit Ihnen zusammen eine passgenaue Lösung für Ihre Problemstellung.
-    Mithilfe unseres Netzwerks aus Industriepartnern und Forschungseinrichtungen unterstützen wir Sie von Machbarkeiten, über Prototypen bis zur Serie.
+    Mithilfe unseres Netzwerks aus Industriepartnern und Forschungseinrichtungen unterstützen wir Sie von der Machbarkeit, über den Prototypen bis zur Serie.
     Von Temperatursensoren bis zur Integration von Bildverarbeitungssystemen - wir arbeiten immer an der besten digitalen Lösung für Sie.
 
     Mehr Automatisierung, mehr Digitalisierung, mehr Effizienz für Ihr Unternehmen. Das leistet iotec für Sie.
@@ -69,9 +70,9 @@ services:
     description: |
         Wir unterstützen Sie gerne bei der Lösung Ihres Problems.
         Dazu analysieren wir gemeinsam mit Ihnen die aktuelle Situation und erarbeiten spezifische Lösungsansätze auf Basis von Sensoren.
-        Diese stellen wir Ihnen in einem Konzept zusammen.
-        Aus diesem Konzept können wir die maßgeschneiderte Sensorlösung für Ihre Herausforderung entwickeln.
-        
+        Diese stellen wir Ihnen in einem Konzept zusammen und
+        aus diesem Konzept können wir die maßgeschneiderte Sensorlösung für Ihre Herausforderung entwickeln.
+
         Von dem Entwurf und der Umsetzung der Elektronik, über die Softwareentwicklung, bis zur Auswertung der Daten können Sie sich auf uns verlassen.
         Wir setzen in unserem Projektmanagement auf agile Arbeitsweisen.
         Dadurch sind Sie stets nah am Entwicklungsprozess, sodass wir gemeinsam flexibel auf Änderungen reagieren können.
