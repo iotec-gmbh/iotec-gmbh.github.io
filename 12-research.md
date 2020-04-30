@@ -54,7 +54,7 @@ Wie müssen Sensorsysteme aufgebaut sein, damit sie auch unter **schwierigen Umw
 Und wie wird eine möglichst **einfache Inbetriebnahme** geschaffen?
 
 In den beiden Forschungsprojekten *Nagerfalle* und [DSSARTH](#dssarth) werden jeweils verteilte Sensorsysteme eingesetzt, um Schädlingsbefall zu überwachen.
-Um die verteilten Sensoren effizient in die IT-Infrastruktur einbinden zu können, werden unterschiedliche Funkprotokolle,
+Damit die verteilten Sensoren effizient in die IT-Infrastruktur eingebunden werden können, werden unterschiedliche Funkprotokolle,
 wie diverse Protokolle aus der **LPWAN** (Low Power Wide Area Network) Familie,
 aber auch **Übertragungsmethoden** wie Bluetooth Low Energie, WLAN-Mesh oder GSM, auf Energieeffizienz, Reichweite und Robustheit untersucht.
 Darüber hinaus werden diese Messgrößen für die verschiedenen Netzwerkprotokolle, wie MQTT oder HTTP, und diverse **Verschlüsselungsmethoden** bestimmt.
@@ -69,7 +69,7 @@ Ziel ist es, die möglichen Fehlerquellen so stark zu reduzieren, dass auch unge
 ## Sensordaten benutzbar machen
 
 Sensoren produzieren oft eine Menge unstrukturierter Daten.
-Dabei liegt der **Wert der Sensordaten** häufig in einem in den Messwerten versteckten Signal.
+Dabei liegt der **Wert der Sensordaten** häufig in einem, in den Messwerten, versteckten Signal.
 In einem automatisierten Prozess ist es daher notwendig, die in den Rohdaten enthaltenen Informationen zu extrahieren und diese strukturiert an den nachfolgenden Prozess übergeben zu können.
 
 Die im Forschungsprojekt [DSSARTH](#dssarth) verwendeten Kameras erstellen Aufnahmen von Schädlingen auf Klebetafeln.
@@ -80,7 +80,7 @@ Die Anzahl an Insekten wird anschließend, über eine definierte Schnittstelle, 
 
 Andere Forschungsprojekte, an denen sich iotec beteiligt, beschäftigen sich mit ähnlichen Fragen unter der Zuhilfenahme **verschiedenster Sensorarten**:
 Das Projekt [soil2data](#soil2data) entwickelt ein mobiles Feldlabor, das automatisch Daten über die Bodenbeschaffenheit landwirtschaftlicher Flächen bereitstellt.
-Dazu werden die im Feld genommenen Bodenproben automatisiert analysiert und die Nährstoffkonzentrationen des Bodens **strukturiert aufbereitet**.
+Dazu werden die im Feld genommenen Bodenproben automatisiert, analysiert und die Nährstoffkonzentrationen des Bodens **strukturiert aufbereitet**.
 Die Projekte [OptiBlend](#optiblend) und *AQM* beschäftigen sich ebenfalls mit dieser Herausforderung.
 
 ## Forschungsprojekte

@@ -9,7 +9,7 @@ um so die initiale Hürde für innovative und neue Ideen so gering wie möglich 
 So können wir erste Prototypen schnell, einfach und *aus einer Hand* anbieten und dadurch sehr früh in der Entwicklung einen Mehrwert schaffen.
 Dies bietet auch bei Projekten mit neuester Technologie und hohem Risiko eine große Planungssicherheit.
 
-Diese Philosophie spiegelt sich auch in unserer **Arbeitsweise** und **technischen Expertise** wider.
+Diese Philosophie spiegelt sich auch in unserer **agilen Arbeitsweise** und **technischen Expertise** wider.
 
 ## Konzepterstellung
 
