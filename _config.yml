@@ -9,7 +9,7 @@ owner: iotec GmbH # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
 email: info@iotec-gmbh.de
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://new.iotec-gmbh.de" # the base hostname & protocol for your site
+url: "https://iotec-gmbh.de" # the base hostname & protocol for your site
 social:
   email: info@iotec-gmbh.de
   phone: '+49541-343711-00'
