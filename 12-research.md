@@ -1,5 +1,7 @@
 ---
 title: Forschung
+sitemap:
+  include: true
 ---
 
 Die Digitalisierung der Industrie schreitet in schnellen Schritten voran.

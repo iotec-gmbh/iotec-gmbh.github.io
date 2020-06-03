@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Entwicklung
+sitemap:
+  include: true
 ---
 
 Ganz nach unserem Motto *Wir machen Sensoren intelligent* liegt der Fokus unserer Entwicklung auf industriellen Messsystemen.
