@@ -2,6 +2,8 @@
 layout: page
 title: Karriere
 description: Werde Teil unseres jungen und innovativen Teams
+sitemap:
+  include: true
 ---
 
 Wir sind immer auf der Suche nach netten Kolleginnen und Kollegen, um unser engagiertes und kompetentes Team zu verstärken.
